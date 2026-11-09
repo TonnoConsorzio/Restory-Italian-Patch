@@ -151,7 +151,7 @@ namespace RestoryItalianPatch
                 if (file.HadOriginal && (!File.Exists(BackupPath(file.RelativePath)) || Hash(BackupPath(file.RelativePath)) != file.OriginalHash))
                     throw new InstallerException("Backup is missing or changed: " + file.RelativePath);
 
-            Rollback(files, HasOtherPlugins());
+            Rollback(files, HasOtherPlugins(files));
             Directory.Delete(_state, true);
         }
 
@@ -233,14 +233,17 @@ namespace RestoryItalianPatch
             Directory.Delete(_state, true);
         }
 
-        private bool HasOtherPlugins()
+        private bool HasOtherPlugins(List<OwnedFile> ownedFiles)
         {
             var plugins = Path.Combine(_game, "BepInEx", "plugins");
             if (!Directory.Exists(plugins)) return false;
+            var patchOwnedPaths = new HashSet<string>(ownedFiles
+                .Where(file => !file.IsLoaderFile && file.RelativePath.Replace('\\', '/').StartsWith("BepInEx/plugins/", StringComparison.OrdinalIgnoreCase))
+                .Select(file => file.RelativePath.Replace('\\', '/')), StringComparer.OrdinalIgnoreCase);
             foreach (var path in Directory.GetFiles(plugins, "*", SearchOption.AllDirectories))
             {
-                var relative = RelativeTo(plugins, path).Replace('\\', '/');
-                if (!relative.StartsWith("RestoryItalianPatch/", StringComparison.OrdinalIgnoreCase)) return true;
+                var relative = RelativeTo(_game, path).Replace('\\', '/');
+                if (!patchOwnedPaths.Contains(relative)) return true;
             }
             return false;
         }

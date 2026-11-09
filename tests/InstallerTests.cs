@@ -74,6 +74,7 @@ internal static class InstallerTests
             Engine(game, payload).Uninstall();
             Equal("original", File.ReadAllText(overwritten), "uninstall restores overwritten original");
             False(File.Exists(Path.Combine(game, "BepInEx", "plugins", "RestoryItalianPatch", "new.txt")), "uninstall removes new patch file");
+            False(File.Exists(Path.Combine(game, "BepInEx", "core", "BepInEx.dll")), "uninstall removes the patch-owned loader when only patch plugins were installed");
             False(File.Exists(Path.Combine(game, ".doorstop_version")), "uninstall removes patch-owned Doorstop version marker when no other plugins remain");
             False(File.Exists(Path.Combine(game, "changelog.txt")), "uninstall removes patch-owned loader changelog when no other plugins remain");
             False(Directory.Exists(Path.Combine(game, InstallerEngine.StateDirectoryName)), "uninstall removes patch state");
@@ -197,10 +198,12 @@ internal static class InstallerTests
     private static void WritePayload(string payload)
     {
         Directory.CreateDirectory(Path.Combine(payload, "BepInEx", "plugins", "RestoryItalianPatch"));
+        Directory.CreateDirectory(Path.Combine(payload, "BepInEx", "plugins", "RestoryItalianCredits"));
         Directory.CreateDirectory(Path.Combine(payload, "BepInEx", "core"));
         File.WriteAllText(Path.Combine(payload, "BepInEx", "plugins", "RestoryItalianPatch", "sample.txt"), "patch");
         File.WriteAllText(Path.Combine(payload, "BepInEx", "plugins", "RestoryItalianPatch", "new.txt"), "new patch file");
         File.WriteAllText(Path.Combine(payload, "BepInEx", "core", "BepInEx.dll"), "bundled loader");
+        File.WriteAllText(Path.Combine(payload, "BepInEx", "plugins", "RestoryItalianCredits", "RestoryItalianCredits.dll"), "credit plugin");
         File.WriteAllText(Path.Combine(payload, ".doorstop_version"), "Doorstop 6");
         File.WriteAllText(Path.Combine(payload, "changelog.txt"), "BepInEx changelog");
     }
