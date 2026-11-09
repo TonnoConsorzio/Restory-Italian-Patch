@@ -1,6 +1,12 @@
 $ErrorActionPreference = 'Stop'
 $compiler = Join-Path $env:WINDIR 'Microsoft.NET\Framework64\v4.0.30319\csc.exe'
 if (-not (Test-Path -LiteralPath $compiler)) { throw 'The .NET Framework C# compiler was not found.' }
+$translationTests = Join-Path $PSScriptRoot ('work\TranslationCatalogTests-' + [Guid]::NewGuid().ToString('N') + '.exe')
+New-Item -ItemType Directory -Force -Path (Split-Path $translationTests) | Out-Null
+& $compiler /nologo /target:exe /reference:System.dll /out:$translationTests (Join-Path $PSScriptRoot 'src\TranslationCatalog.cs') (Join-Path $PSScriptRoot 'tests\TranslationCatalogTests.cs')
+if ($LASTEXITCODE -ne 0) { throw 'Translation catalog test compilation failed.' }
+& $translationTests
+if ($LASTEXITCODE -ne 0) { throw 'Translation catalog tests failed.' }
 $output = Join-Path $PSScriptRoot ('work\InstallerTests-' + [Guid]::NewGuid().ToString('N') + '.exe')
 New-Item -ItemType Directory -Force -Path (Split-Path $output) | Out-Null
 & $compiler /nologo /target:exe /reference:System.Xml.dll /out:$output (Join-Path $PSScriptRoot 'src\Installer.cs') (Join-Path $PSScriptRoot 'tests\InstallerTests.cs')

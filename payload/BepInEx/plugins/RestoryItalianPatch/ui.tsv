@@ -1,0 +1,230 @@
+# UI key<TAB>Italian translation. Escapes: \\, \t and \n.
+UI_MAIN_MENU_BUTTON_CONTINUE	Continua
+UI_MAIN_MENU_BUTTON_NEW_GAME	Nuova partita
+UI_MAIN_MENU_BUTTON_EXIT_GAME	Esci dal gioco
+UI_MAIN_MENU_BUTTON_SETTINGS	Impostazioni
+UI_MAIN_MENU_LANGUAGE	Lingua:
+UI_LANGUAGE_SELECTOR	Italiano
+UI_SETTINGD_MENU_SFX_VOLUME	Volume effetti sonori
+UI_SETTINGD_MENU_MUSIC_VOLUME	Volume musica
+UI_SETTINGD_MENU_MASTER_VOLUME	Volume generale
+UI_SETTINGD_MENU_FPS_UNLIMITED	Illimitato
+UI_BACK	Indietro
+UI_YES	Sì
+UI_NO	No
+UI_OK	OK
+UI_PAUSE_MENU_BUTTON_MAIN_MENU	Menu principale
+UI_PAUSE_MENU_BUTTON_SAVE_GAME	Salva partita
+UI_PAUSE_MENU_BUTTON_LOAD_GAME	Carica partita
+UI_CONFIRMATION_DIALOGUE_EXIT	Vuoi davvero uscire? I dati non salvati andranno persi
+UI_LAST_SAVE	Ultimo salvataggio:
+UI_START_NEW_DAY	Inizia una nuova giornata
+UI_START_SCREEN_DAY	Giorno
+UI_START_SCREEN_TITLE	Tokyo, primi anni 2000
+UI_START_SCREEN_FIRST_DAY	Il mio primo giorno in officina.
+UI_DAY_OF_WEEK_MONDAY	Lunedì
+UI_DAY_OF_WEEK_TUESDAY	Martedì
+UI_DAY_OF_WEEK_WEDNESDAY	Mercoledì
+UI_DAY_OF_WEEK_THURSDAY	Giovedì
+UI_DAY_OF_WEEK_FRIDAY	Venerdì
+UI_DAY_OF_WEEK_SATURDAY	Sabato
+UI_DAY_OF_WEEK_SUNDAY	Domenica
+UI_DAY_OF_WEEK_MONDAY_SHORT	Lun
+UI_DAY_OF_WEEK_TUESDAY_SHORT	Mar
+UI_DAY_OF_WEEK_WEDNESDAY_SHORT	Mer
+UI_DAY_OF_WEEK_THURSDAY_SHORT	Gio
+UI_DAY_OF_WEEK_FRIDAY_SHORT	Ven
+UI_DAY_OF_WEEK_SATURDAY_SHORT	Sab
+UI_DAY_OF_WEEK_SUNDAY_SHORT	Dom
+UI_LOADING_SCREEN_LOADING_TEXT	Caricamento...
+UI_TEXT_ALL	Tutti
+UI_INVENTORY_BUTTON_DROP	Posa
+UI_SHOP_BUTTON_ADD_TO_CART	Aggiungi al carrello
+UI_SHOP_BUTTON_BUY	Compra
+UI_SHOP_TEXT_PARTS_STORE_NAME	Negozio di ricambi
+UI_SHOP_TEXT_ITEMS	Articoli
+UI_SHOP_TEXT_CART	Carrello
+UI_BROWSER_TEXT_BANK_BALANCE	Saldo
+UI_BROWSER_TEXT_BROWSER	Browser
+UI_BROWSER_INSUFFICIENT_FUNDS	Fondi insufficienti
+UI_BROWSER_NO_LONGER_AVAILABLE	Non più disponibile
+UI_BROWSER_LICENSE_REQUIRED	Licenza necessaria
+UI_BROWSER_AIRBRUSH_REQUIRED	Aerografo necessario
+UI_BROWSER_DELIVERY_TOMORROW	Le consegne sono disponibili dalle 08:00
+UI_BROWSER_ADBANNER_HEADER	Licenze di riparazione
+UI_BROWSER_ADBANNER_DESCRIPTION	Compra, vendi e ordina ricambi!
+UI_BROWSER_ADBANNER_BUTTON	Compra licenza
+UI_BROWSER_ADBANNER_CLICK_HERE	Clicca qui
+UI_BROWSER_TAB_AUCTION	Mercato - Aste
+UI_BROWSER_TAB_PACKUTEN	Ricambi - Packuten
+UI_BROWSER_TAB_BINOTARO	Home Depot - Bin o taro
+UI_BROWSER_OOPS_HEADER	Ops!
+UI_BROWSER_OOPS_DESCRIPTION	Esaurito.\nLa prossima consegna è prevista per domani.
+UI_NOTEPAD_TEXT_IN_INVENTORY	Nell'inventario
+UI_NOTEPAD_TEXT_ON_WORK_SURFACE	Sul banco
+UI_NOTEPAD_EMPTY_DESK_TEXT_HEADER	Il banco è vuoto
+UI_NOTEPAD_EMPTY_DESK_TEXT_BODY	Metti un dispositivo sul banco
+UI_NOTEPAD_ELEMENTS_TEXT_IN_DEVICE	Istruzioni:
+UI_NOTEPAD_ELEMENTS_TEXT_ON_DESK	Sul banco:
+UI_WORKSURFACE_EMPTY_DESK_SIGN	Metti un componente sul tavolo per iniziare a riparare il dispositivo
+UI_EMPTY_INVENTORY	Scatola dei ricambi vuota
+UI_EMPTY_INVENTORY_DESCRIPTION	Puoi usare i componenti di un dispositivo per ripararne un altro.
+UI_TOOLTIP_NOT_FOR_SALE	Non in vendita
+UI_TOOLTIP_CAN_BE_SOLD_FOR	Prezzo di vendita:
+UI_TOOLTIP_SAVE_AND_END_DAY	Salva e termina la giornata
+UI_TOOLTIP_OPEN_WORKSHOP	Apri l'officina
+UI_TOOLTIP_CLOSE_WORKSHOP	Chiudi l'officina
+UI_TOOLTIP_NOT_IDEAL_DEVICE_WARNING	Impossibile vendere: non funziona
+UI_TOOLTIP_NOT_IDEAL_DEVICE_OF_WORK_ORDER_WARNING	Impossibile completare l'ordine: non funziona
+UI_TOOLTIP_TRANSFER_PARTS_USING_INVENTORY	Puoi conservare qui i ricambi e usarli per un altro dispositivo
+UI_CLEANING_TO_DO_LIST	Da fare:
+UI_CLEANING_TASK_DUST	Pulisci
+UI_CLEAN_DUST_TASK_TEXT	Rimuovi la polvere:
+UI_CLEAN_DIRT_TASK_TEXT	Rimuovi lo sporco:
+UI_CLEAN_RUST_TASK_TEXT	Rimuovi la ruggine:
+UI_CLEAN_SOOT_TASK_TEXT	Rimuovi la fuliggine:
+UI_RESOLDER_TASK_TEXT	Risalda:
+UI_BROKEN_DEVICE_QUALITY	Non si accende
+UI_IDEAL_DEVICE_QUALITY	Perfetto
+UI_UNKNOWN_DEVICE_QUALITY	Sconosciuto
+UI_WORKING_DEVICE_QUALITY	Funziona
+UI_DEVICE_CONDITION	Condizioni del dispositivo:
+UI_MARKET_PRICE	Prezzo di vendita:
+UI_SELLER_RATING	Venditore:
+UI_DELETE_FROM_BUSCKET	Rimuovi dal carrello
+UI_NOTEBOOK_INFO_CONDITION	Condizioni:
+UI_NOTEBOOK_INFO_PRICE	Prezzo:
+UI_NOTEBOOK_INFO_PROGRESS	Giorni di lavoro:
+UI_NOTEBOOK_INFO_ORDER_FROM	Ordine da:
+UI_NOTEBOOK_QUALITY_BROKEN	Guasto
+UI_NOTEBOOK_QUALITY_DIRTY	Sporco
+UI_NOTEBOOK_QUALITY_PERFECT	Funzionante
+UI_NOTEBOOK_QUALITY_BURNT	Da risaldare
+UI_NOTEBOOK_QUALITY_MISSING	Mancante
+UI_ADVICE_ASSEMBLE_ZOOM	Ingrandisci
+UI_ADVICE_ASSEMBLE_ROTATION	Ruota oggetto
+UI_ADVICE_USE_KEYBOARD	Usa la tastiera
+UI_CHARACTER_ACTIVITY_ADVICE_ROTATE_BUILDING	Tieni premuto per ruotare
+UI_CHARACTER_ACTIVITY_ADVICE_CANCEL	Premi per annullare
+UI_CHARACTER_ACTIVITY_ADVICE_DROP_ITEM	Tieni premuto e rilascia per lasciare
+UI_MENU_ADVICE_CLICK_TO_BUY	Clicca su un prodotto per acquistarlo
+UI_WARNING_DAY_END	Si è fatto tardi. Forse è ora di tornare a casa?
+UI_WARNING_CLEAN_UP_TABLE	Libera il banco
+UI_WARNING_ORDER_WAITING_UNTIL_MORNING	L'ordine verrà ritirato domattina
+UI_WARNING_RECHECK_PARTS	C'è qualcosa che non va. Ricontrolla i componenti
+UI_WARNING_NOT_SCREWED_PARTS	Devi avvitare alcuni componenti
+UI_WARNING_REMOVE_EXTRA_PARTS	Ricordati di togliere i componenti inutili dal banco
+UI_WARNING_DAMAGED_PART_INSTALLED	Hai installato un componente guasto
+UI_WARNING_DIRTY_PART_INSTALLED	Hai installato un componente sporco
+UI_WARNING_NOT_ENOUGH_SPACE_IN_STORE	Non c'è spazio in negozio
+UI_TOOL_REQUIRED_TEXT	Necessario:
+UI_BILLS_PAYMENT_PURPOSE	Articolo:
+UI_BILLS_AMOUNT_DUE	Da pagare:
+UI_REGULAR_PAYMENT_RENT_TITLE	AFFITTO
+UI_REGULAR_PAYMENT_DEFENSE_TITLE	SICUREZZA
+UI_REGULAR_PAYMENT_INTERNET_TITLE	INTERNET
+TUTORIAL_ORDER_IS_NOT_READY_YET	Il dispositivo richiede altro lavoro
+TUTORIAL_NO_NEED_TO_KEEP_BROKEN_PARTS	Non serve conservare i componenti guasti
+TUTORIAL_NEED_KEY	Serve una chiave
+UI_DEMO_END_WINDOW_HEADER_TEXT	Beh, beh, beh... hai completato la demo, vero?
+UI_DEMO_END_WINDOW_OK_BUTTON	OK
+ACH_FIRST_REPAIR_NAME	Prima riparazione!
+ACH_FIRST_REPAIR_DESC	Ripara un dispositivo per la prima volta
+ACH_OFFICIAL_PARTNER_NAME	Partner ufficiale
+ACH_OFFICIAL_PARTNER_DESC	Compra una licenza qualsiasi
+ACH_ORIGAMI_NAME	Origami
+ACH_ORIGAMI_DESC	Aiuta gratis un bambino
+ACH_JUNKMAN_NAME	Compravendita
+ACH_JUNKMAN_DESC	Compra 5 dispositivi al mercato
+ACH_MAKING_MONEY_NAME	Fare soldi!
+ACH_MAKING_MONEY_DESC	Vendi 5 dispositivi in totale
+ACH_MASTERED_THE_INTERNET_NAME	Maestro di Internet
+ACH_MASTERED_THE_INTERNET_DESC	Accetta per la prima volta un ordine via email
+ACH_AKIBAS_TERROR_NAME	Promessa di Akiba
+ACH_AKIBAS_TERROR_DESC	Vinci una gara di assemblaggio di dispositivi
+ACH_AKIBAS_STAR_NAME	Stella di Akiba
+ACH_AKIBAS_STAR_DESC	Vinci 3 diverse gare di assemblaggio di dispositivi
+ACH_AKIBAS_LEGEND_NAME	Leggenda di Akiba
+ACH_AKIBAS_LEGEND_DESC	Vinci almeno una gara di assemblaggio per ogni tipo di dispositivo
+ACH_GOLD_PARTNER_NAME	Partner d'oro
+ACH_GOLD_PARTNER_DESC	Ottieni 5 licenze
+ACH_PLATINUM_PARTNER_NAME	Partner di platino
+ACH_PLATINUM_PARTNER_DESC	Ottieni tutte le licenze
+ACH_ABSUD_ARE_YOU_SERIOUS_NAME	Ma davvero? È assurdo!
+ACH_ABSUD_ARE_YOU_SERIOUS_DESC	Compra la licenza più costosa
+ACH_POKRAS_DEVICE_NAME	Ordini personalizzati disponibili!
+ACH_POKRAS_DEVICE_DESC	Personalizza per la prima volta un dispositivo su richiesta di un cliente
+ACH_HANDS_FREE_NAME	Mani libere
+ACH_HANDS_FREE_DESC	Compra una vasca a ultrasuoni automatica per la pulizia
+ACH_TWIST_AND_TURN_NAME	Gira e rigira
+ACH_TWIST_AND_TURN_DESC	Compra un cacciavite professionale
+ACH_ECOLOGIST_NAME	Ecologista
+ACH_ECOLOGIST_DESC	Compra un trituratore per i componenti rotti
+ACH_HOW_DID_I_DO_IT_NAME	Come ho fatto?
+ACH_HOW_DID_I_DO_IT_DESC	Ripara un componente usando un saldatore
+ACH_PERFECTIONIST_NAME	Pulizie di fino!
+ACH_PERFECTIONIST_DESC	Rimuovi sporco e polvere da 100 componenti
+ACH_STILL_NICE_NAME	Pulizia galattica!
+ACH_STILL_NICE_DESC	Rimuovi sporco e polvere da 1000 componenti
+ACH_COZY_NAME	Che accoglienza!
+ACH_COZY_DESC	Compra qualcosa per rendere più accogliente l'officina
+ACH_AKIBA_NEVER_SLEEPS_NAME	Akiba non dorme mai!
+ACH_AKIBA_NEVER_SLEEPS_DESC	Non terminare la giornata per 7 giorni di fila
+ACH_PAID_THE_BILLS_NAME	Tutte le bollette pagate!
+ACH_PAID_THE_BILLS_DESC	Paga 2 bollette
+ACH_IM_A_HACKER_LIKE_IN_THE_MOVIES_NAME	Hacking 101
+ACH_IM_A_HACKER_LIKE_IN_THE_MOVIES_DESC	Riprogramma un dispositivo per la prima volta
+ACH_11001_NAME	11001
+ACH_11001_DESC	Riprogramma 25 dispositivi
+ACH_GARAGE_SALE_NAME	Svuota garage!
+ACH_GARAGE_SALE_DESC	Compra 25 dispositivi al mercato
+ACH_MILLIONAIRE_NAME	Milionario!
+ACH_MILLIONAIRE_DESC	Guadagna 1 000 000 yen
+ACH_3_MONTHS_AT_WORK_NAME	Resoconto trimestrale
+ACH_3_MONTHS_AT_WORK_DESC	Gioca per 90 giorni
+ACH_EMPLOYEE_OF_THE_MONTH_NAME	Dipendente del mese
+ACH_EMPLOYEE_OF_THE_MONTH_DESC	Gioca per 30 giorni
+ACH_EMPLOYEE_OF_THE_YEAR_NAME	Akiba è casa
+ACH_EMPLOYEE_OF_THE_YEAR_DESC	Gioca per 365 giorni
+ACH_SAVING_NAME	Risparmiatore
+ACH_SAVING_DESC	Non comprare nuovi componenti per 10 giorni di fila
+ACH_ONLINE_BUSINESS_NAME	WWW
+ACH_ONLINE_BUSINESS_DESC	Completa 25 ordini via email
+ACH_ONLINE_NAME	Attività online
+ACH_ONLINE_DESC	Completa 100 ordini via email
+ACH_CLEANER_NAME	Lavoro pulito
+ACH_CLEANER_DESC	Pulisci l'officina
+ACH_FIRST_REVIEWS_NAME	Prime recensioni!
+ACH_FIRST_REVIEWS_DESC	Ricevi 5 recensioni sul tuo lavoro
+ACH_WHO_ARE_ALL_THESE_PEOPLE_NAME	Sempre più popolare!
+ACH_WHO_ARE_ALL_THESE_PEOPLE_DESC	Ricevi 25 recensioni sul tuo lavoro
+ACH_MY_FAMILY_NAME	Il miglior negozio di Akiba!
+ACH_MY_FAMILY_DESC	Ricevi 50 recensioni sul tuo lavoro
+ACH_STICKER_BOMBING_NAME	Pioggia di adesivi
+ACH_STICKER_BOMBING_DESC	Applica 100 adesivi
+ACH_BEAUTIFUL_NAME	Stile immediato
+ACH_BEAUTIFUL_DESC	Applica un adesivo a un dispositivo
+ACH_PAM_PAM_NAME	Ancora più stile
+ACH_PAM_PAM_DESC	Applica 25 adesivi
+ACH_BUSINESS_SHARK_NAME	Squalo degli affari
+ACH_BUSINESS_SHARK_DESC	Guadagna più di 100 000 yen in un solo giorno
+ACH_INTERIOR_DESIGNER_NAME	Oasi zen
+ACH_INTERIOR_DESIGNER_DESC	Accumula più di 100 punti Zen
+ACH_MALICIOUS_DEFAULTER_NAME	In bancarotta
+ACH_MALICIOUS_DEFAULTER_DESC	Ricevi un avviso per una bolletta scaduta
+ACH_AVATAR_NAME	Tuttofare
+ACH_AVATAR_DESC	Completa un ordine che richiede verniciatura, pulizia, riparazione e hacking
+ACH_LOOT_BOX_NAME	Cassa premio
+ACH_LOOT_BOX_DESC	Compra una scatola di componenti
+ACH_GAMBLING_ADDICT_NAME	Giocatore d'azzardo
+ACH_GAMBLING_ADDICT_DESC	Compra 50 scatole di componenti
+ACH_GHOST_IN_A_SHELL_NAME	Fantasma nell'inquadratura
+ACH_GHOST_IN_A_SHELL_DESC	Un occhio nel cielo ti sta osservando...
+ACH_RONIN_NAME	Ronin
+ACH_RONIN_DESC	È possibile compiere alla perfezione il proprio destino da guerriero.
+ACH_MELANCHOLY_NAME	Malinconia
+ACH_MELANCHOLY_DESC	Non mi servono le persone normali!
+ACH_ROCK_OF_AGES_NAME	Rock senza tempo!
+ACH_ROCK_OF_AGES_DESC	Amico, questo è il miglior concerto che Akiba abbia mai visto!
+ACH_PROFESSIONAL_NAME	Globalizzazione
+ACH_PROFESSIONAL_DESC	Fatti assimilare da un centro commerciale
