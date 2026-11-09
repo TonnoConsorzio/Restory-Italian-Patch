@@ -2,6 +2,7 @@
 /work/
 /dist/
 /game-copy/
+/.worktrees/
 *.user
 *.suo
 *.log
