@@ -20,7 +20,7 @@ Without an explicit payload folder, install reads `payload` beside the executabl
 
 ## Release payload seam
 
-The payload includes BepInEx 6.0.0-be.792 for Unity Mono, the UI and dialogue runtime plugins, the credits overlay, and the Italian TSV maps. `build.ps1` compiles all three plugins from source, then creates a timestamped release folder with the EXE, payload, CMD wrappers, and quick-start guide.
+The release payload includes BepInEx 6.0.0-be.792 for Unity Mono, the UI and dialogue runtime plugins, the credits overlay, and the Italian TSV maps. `build.ps1` compiles all three plugins from source under ignored `work\build-payload`, then stages them into a timestamped release folder with the EXE, loader payload, CMD wrappers, and quick-start guide. No generated plugin DLL is tracked in `payload/`.
 
 The UI map covers 2,146/2,146 source keys, including all achievement names and descriptions. Dialogue coverage is 1,132/1,132 runtime keys. Maps load numbered shards in deterministic filename order and reject duplicate IDs. Run `tests\TranslationMapCoverage.ps1 -SourceCorpus <path-to-read-only-corpus>` to report UI coverage, achievement counts, unknown IDs, and token mismatches. Do not add the source corpus to the repository.
 

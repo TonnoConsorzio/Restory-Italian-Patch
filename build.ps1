@@ -9,6 +9,7 @@ if (-not (Test-Path -LiteralPath $compiler)) { throw 'The .NET Framework C# comp
 $releaseName = 'RestoryItalianPatch-' + (Get-Date -Format 'yyyyMMdd-HHmmss')
 $output = Join-Path $PSScriptRoot (Join-Path 'dist' $releaseName)
 New-Item -ItemType Directory -Force -Path $output | Out-Null
+$buildPayload = Join-Path $PSScriptRoot 'work\build-payload'
 $pluginBuilds = @(
     @{ Script = 'src\build-plugin.ps1'; Arguments = @('-ManagedGameFolder', $ManagedGameFolder, '-BepInExCoreFolder', $BepInExCoreFolder) },
     @{ Script = 'src\Credits\build-credits-plugin.ps1'; Arguments = @('-GameManaged', $ManagedGameFolder, '-BepInExCore', $BepInExCoreFolder) },
@@ -26,6 +27,18 @@ if (Test-Path -LiteralPath $payload) {
     $packagePayload = Join-Path $output 'payload'
     New-Item -ItemType Directory -Force -Path $packagePayload | Out-Null
     Get-ChildItem -LiteralPath $payload -Force | Copy-Item -Destination $packagePayload -Recurse -Force
+}
+$pluginPayloads = @(
+    'BepInEx\plugins\RestoryItalianPatch\RestoryItalianPatch.dll',
+    'BepInEx\plugins\RestoryItalianCredits\RestoryItalianCredits.dll',
+    'BepInEx\plugins\RestoryItalianDialogue\RestoryItalianDialogue.dll'
+)
+foreach ($relativePath in $pluginPayloads) {
+    $source = Join-Path $buildPayload $relativePath
+    if (-not (Test-Path -LiteralPath $source -PathType Leaf)) { throw "Compiled plugin is missing: $source" }
+    $destination = Join-Path $packagePayload $relativePath
+    New-Item -ItemType Directory -Force -Path (Split-Path $destination) | Out-Null
+    Copy-Item -LiteralPath $source -Destination $destination -Force
 }
 Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'install.cmd') -Destination $output
 Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'uninstall.cmd') -Destination $output

@@ -20,7 +20,7 @@ foreach ($reference in $references) {
 }
 
 $projectRoot = Split-Path $PSScriptRoot -Parent
-$output = Join-Path $projectRoot 'payload\BepInEx\plugins\RestoryItalianPatch\RestoryItalianPatch.dll'
+$output = Join-Path $projectRoot 'work\build-payload\BepInEx\plugins\RestoryItalianPatch\RestoryItalianPatch.dll'
 New-Item -ItemType Directory -Force -Path (Split-Path $output) | Out-Null
 $arguments = @('/nologo', '/target:library', '/optimize+', "/out:$output")
 $arguments += $references | ForEach-Object { "/reference:$_" }

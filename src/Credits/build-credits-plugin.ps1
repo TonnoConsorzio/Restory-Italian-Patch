@@ -8,12 +8,9 @@ if (-not (Test-Path -LiteralPath $compiler)) { throw 'The .NET Framework C# comp
 if (-not (Test-Path -LiteralPath (Join-Path $GameManaged 'Restory.Assembly.dll'))) { throw 'Restory.Assembly.dll was not found at the supported game install.' }
 if (-not (Test-Path -LiteralPath (Join-Path $BepInExCore 'BepInEx.Unity.Mono.dll'))) { throw 'The BepInEx 6 Unity Mono install was not found.' }
 
-$payload = Join-Path $PSScriptRoot '..\..\payload\BepInEx\plugins\RestoryItalianCredits'
-New-Item -ItemType Directory -Force -Path $payload | Out-Null
-$buildDirectory = Join-Path $PSScriptRoot '..\..\work'
+$buildDirectory = Join-Path $PSScriptRoot '..\..\work\build-payload\BepInEx\plugins\RestoryItalianCredits'
 New-Item -ItemType Directory -Force -Path $buildDirectory | Out-Null
 $output = Join-Path $buildDirectory 'RestoryItalianCredits.dll'
-$payloadAssembly = Join-Path $payload 'RestoryItalianCredits.dll'
 $references = @(
     (Join-Path $BepInExCore 'BepInEx.Core.dll'),
     (Join-Path $BepInExCore 'BepInEx.Unity.Mono.dll'),
@@ -33,5 +30,4 @@ $referenceArgs = $references | ForEach-Object { '/reference:' + $_ }
     (Join-Path $PSScriptRoot 'CreditOverlayDefinition.cs') `
     (Join-Path $PSScriptRoot 'RestoryItalianCreditsPlugin.cs')
 if ($LASTEXITCODE -ne 0) { throw 'Credit plugin compilation failed.' }
-Copy-Item -LiteralPath $output -Destination $payloadAssembly -Force
-Write-Host "Built $payloadAssembly"
+Write-Host "Built $output"

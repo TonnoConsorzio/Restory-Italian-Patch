@@ -25,9 +25,9 @@ foreach ($reference in $references) {
     if (-not (Test-Path -LiteralPath $reference -PathType Leaf)) { throw "Required assembly was not found: $reference" }
 }
 
-$payloadDirectory = Join-Path $repo 'payload\BepInEx\plugins\RestoryItalianDialogue'
-New-Item -ItemType Directory -Force -Path $payloadDirectory | Out-Null
-$output = Join-Path $payloadDirectory 'RestoryItalianDialogue.dll'
+$buildDirectory = Join-Path $repo 'work\build-payload\BepInEx\plugins\RestoryItalianDialogue'
+New-Item -ItemType Directory -Force -Path $buildDirectory | Out-Null
+$output = Join-Path $buildDirectory 'RestoryItalianDialogue.dll'
 $arguments = @('/nologo', '/target:library', '/optimize+', ('/out:' + $output))
 foreach ($reference in $references) { $arguments += '/reference:' + $reference }
 $arguments += (Join-Path $repo 'src\DialogueTranslationCatalog.cs')
