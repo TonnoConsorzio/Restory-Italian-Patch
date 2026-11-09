@@ -9,6 +9,7 @@ internal static class InstallerTests
     private static void Main()
     {
         UnsupportedBuildIsRejectedBeforeWrites();
+        UnownedStateDirectoryIsNeverDeleted();
         InstallIsReversibleAndRepeatInstallIsIdempotent();
         ExistingLoaderAndOtherPluginsArePreserved();
         InterruptedInstallIsRecoveredBeforeRetry();
@@ -28,6 +29,24 @@ internal static class InstallerTests
             Throws<UnsupportedGameException>(() => Engine(game, payload).Install());
             Equal(before, Directory.GetFileSystemEntries(game, "*", SearchOption.AllDirectories).Length, "unsupported install leaves game tree unchanged");
             False(Directory.Exists(Path.Combine(game, InstallerEngine.StateDirectoryName)), "unsupported install creates no state directory");
+        });
+    }
+
+    private static void UnownedStateDirectoryIsNeverDeleted()
+    {
+        WithFixture((root, game, payload) =>
+        {
+            WriteGame(game, InstallerEngine.SupportedBuildId);
+            WritePayload(payload);
+            var state = Path.Combine(game, InstallerEngine.StateDirectoryName);
+            Directory.CreateDirectory(state);
+            var userFile = Path.Combine(state, "keep-me.txt");
+            File.WriteAllText(userFile, "user data");
+
+            Throws<InstallerException>(() => Engine(game, payload).Install());
+
+            Equal("user data", File.ReadAllText(userFile), "unknown installer state is preserved");
+            False(File.Exists(Path.Combine(game, "BepInEx", "plugins", "RestoryItalianPatch", "sample.txt")), "unknown state prevents activation");
         });
     }
 

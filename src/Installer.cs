@@ -75,7 +75,7 @@ namespace RestoryItalianPatch
                     else throw new InstallerException("A different patch version is installed. Uninstall it before installing this payload.");
                 }
                 else if (File.Exists(_journal)) RecoverPreparation(ReadFiles(_journal));
-                else Directory.Delete(_state, true); // No activation starts before a journal exists.
+                else throw new InstallerException("The patch state folder exists without a valid manifest or journal; refusing to delete or overwrite it: " + _state);
             }
 
             Directory.CreateDirectory(Path.Combine(_state, "backups"));
