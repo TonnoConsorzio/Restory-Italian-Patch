@@ -1,3 +1,5 @@
+param([string] $ManagedGameFolder = $(if ($env:RESTORY_MANAGED_FOLDER) { $env:RESTORY_MANAGED_FOLDER } else { Join-Path ${env:ProgramFiles(x86)} 'Steam\steamapps\common\Restory\Restory_Data\Managed' }))
+
 $ErrorActionPreference = 'Stop'
 $compiler = Join-Path $env:WINDIR 'Microsoft.NET\Framework64\v4.0.30319\csc.exe'
 if (-not (Test-Path -LiteralPath $compiler)) { throw 'The .NET Framework C# compiler was not found.' }
@@ -21,7 +23,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'te
 if ($LASTEXITCODE -ne 0) { throw 'Dialogue source export tests failed.' }
 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'tests\DialogueProbeExport.Tests.ps1')
 if ($LASTEXITCODE -ne 0) { throw 'Dialogue identity probe tests failed.' }
-powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'build.ps1')
+powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'build.ps1') -ManagedGameFolder $ManagedGameFolder
 if ($LASTEXITCODE -ne 0) { throw 'CLI build failed.' }
 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'tests\CliSmoke.ps1')
 if ($LASTEXITCODE -ne 0) { throw 'CLI smoke test failed.' }

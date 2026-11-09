@@ -1,7 +1,7 @@
 # Restory Italian patch feasibility research
 
 **Date:** 2026-11-08  
-**Target:** `D:\Steam\steamapps\common\Restory`  
+**Target:** local Steam installation of Restory
 **Purpose:** Find a practical, separate command-line Italian patch route. No game files were modified.
 
 ## Direct observations

@@ -1,8 +1,22 @@
 @echo off
 setlocal
+set "PATCHER=%~dp0RestoryItalianPatch.exe"
+if not exist "%PATCHER%" (
+  for /f "usebackq delims=" %%P in (`powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0Find-Patcher.ps1" -BuildFolder "%~dp0dist"`) do set "PATCHER=%%P"
+)
+if not exist "%PATCHER%" (
+  echo Non trovo RestoryItalianPatch.exe accanto a questo script o in dist.
+  echo Scarica la release completa oppure compila prima il progetto con build.ps1.
+  pause
+  exit /b 1
+)
 set "GAME=%~1"
-if not defined GAME set "GAME=D:\Steam\steamapps\common\Restory"
-"%~dp0RestoryItalianPatch.exe" uninstall "%GAME%"
+if not defined GAME (
+  for /f "usebackq delims=" %%G in (`powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0Find-Restory.ps1"`) do set "GAME=%%G"
+)
+if defined GAME echo Trovato Restory: "%GAME%"
+if not defined GAME set /p "GAME=Percorso della cartella Restory: "
+"%PATCHER%" uninstall "%GAME%"
 set "RESULT=%ERRORLEVEL%"
 pause
 exit /b %RESULT%

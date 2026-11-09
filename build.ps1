@@ -1,9 +1,12 @@
 param(
-    [string] $ManagedGameFolder = 'D:\Steam\steamapps\common\Restory\Restory_Data\Managed',
+    [string] $ManagedGameFolder = $(if ($env:RESTORY_MANAGED_FOLDER) { $env:RESTORY_MANAGED_FOLDER } else { Join-Path ${env:ProgramFiles(x86)} 'Steam\steamapps\common\Restory\Restory_Data\Managed' }),
     [string] $BepInExCoreFolder = (Join-Path $PSScriptRoot 'payload\BepInEx\core')
 )
 
 $ErrorActionPreference = 'Stop'
+if (-not (Test-Path -LiteralPath (Join-Path $ManagedGameFolder 'Restory.Assembly.dll'))) {
+    throw "Restory.Assembly.dll not found. Pass -ManagedGameFolder <Restory_Data\Managed> or set RESTORY_MANAGED_FOLDER."
+}
 $compiler = Join-Path $env:WINDIR 'Microsoft.NET\Framework64\v4.0.30319\csc.exe'
 if (-not (Test-Path -LiteralPath $compiler)) { throw 'The .NET Framework C# compiler was not found.' }
 $releaseName = 'RestoryItalianPatch-' + (Get-Date -Format 'yyyyMMdd-HHmmss')
@@ -42,6 +45,9 @@ foreach ($relativePath in $pluginPayloads) {
 }
 Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'install.cmd') -Destination $output
 Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'uninstall.cmd') -Destination $output
+Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'Find-Restory.ps1') -Destination $output
+Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'Find-Patcher.ps1') -Destination $output
 Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'README-IT.txt') -Destination $output
+Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'LICENSE') -Destination $output
 Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'THIRD-PARTY-NOTICES.md') -Destination $output
 Write-Host "Built release in $output"

@@ -1,6 +1,6 @@
 param(
-    [string]$GameManaged = 'D:\Steam\steamapps\common\Restory\Restory_Data\Managed',
-    [string]$BepInExCore = 'C:\Users\aless\Documents\Codex\2026-11-08\d-steam-steamapps-common-restory\work\bepinex792\BepInEx\core'
+    [string]$GameManaged = $(if ($env:RESTORY_MANAGED_FOLDER) { $env:RESTORY_MANAGED_FOLDER } else { Join-Path ${env:ProgramFiles(x86)} 'Steam\steamapps\common\Restory\Restory_Data\Managed' }),
+    [string]$BepInExCore = (Join-Path $PSScriptRoot '..\..\payload\BepInEx\core')
 )
 $ErrorActionPreference = 'Stop'
 $compiler = Join-Path $env:WINDIR 'Microsoft.NET\Framework64\v4.0.30319\csc.exe'

@@ -5,8 +5,9 @@
 The source targets the Windows .NET Framework console runtime. On a Windows machine with its C# compiler installed:
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\test.ps1
-powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1
+$managed = 'C:\path\to\steamapps\common\Restory\Restory_Data\Managed'
+powershell -NoProfile -ExecutionPolicy Bypass -File .\test.ps1 -ManagedGameFolder $managed
+powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1 -ManagedGameFolder $managed
 ```
 
 Each build creates a clean, timestamped release folder under `dist\RestoryItalianPatch-<timestamp>`. It contains `RestoryItalianPatch.exe`, its payload, `install.cmd`, `uninstall.cmd`, and the Italian quick-start guide. It accepts:
@@ -16,7 +17,9 @@ RestoryItalianPatch.exe install "C:\path\to\steamapps\common\Restory" [payload-f
 RestoryItalianPatch.exe uninstall "C:\path\to\steamapps\common\Restory"
 ```
 
-Without an explicit payload folder, install reads `payload` beside the executable. The `install.cmd` and `uninstall.cmd` launch against `D:\Steam\steamapps\common\Restory` by default; passing a folder path as an argument selects a different location. The compatibility check finds the adjacent Steam `appmanifest_*.acf`, matches its `installdir` to the selected folder, and accepts only build ID `26253677`. A missing marker or any other build exits before creating installer state or writing to the game.
+Without an explicit payload folder, install reads `payload` beside the executable. The CMD wrappers use the executable beside them or locate the newest release under the source folder's `dist`. They search Steam's registered library folders for Restory build `26253677`; if no supported installation is found, they prompt for the game folder. A path can also be passed as the first argument. The compatibility check independently finds the adjacent Steam `appmanifest_*.acf`, matches its `installdir` to the selected folder, and accepts only build ID `26253677`. A missing marker or any other build exits before creating installer state or writing to the game.
+
+Build and test commands accept the game's `Restory_Data\Managed` folder. Pass it as `-ManagedGameFolder`, or set `RESTORY_MANAGED_FOLDER` to that directory. The default is the standard Steam library under `Program Files (x86)`.
 
 ## Release payload seam
 
