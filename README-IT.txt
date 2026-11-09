@@ -2,14 +2,14 @@ PATCH ITALIANA PER RESTORY
 
 INSTALLAZIONE
 1. Chiudi Restory.
-2. Se la cartella Steam del gioco e' quella predefinita, fai doppio clic su install.cmd.
-3. Per un'altra cartella, trascina la cartella Restory su install.cmd oppure usa:
+2. Fai doppio clic su install.cmd: cerca la build supportata nelle librerie Steam e usa automaticamente l'EXE più recente in dist.
+3. Puoi anche trascinare la cartella Restory su install.cmd oppure usare:
    RestoryItalianPatch.exe install "D:\percorso\Restory"
 4. Avvia il gioco e seleziona Italiano nelle impostazioni della lingua.
 
 RIMOZIONE
-Fai doppio clic su uninstall.cmd oppure esegui:
-   RestoryItalianPatch.exe uninstall "D:\Steam\steamapps\common\Restory"
+Fai doppio clic su uninstall.cmd e inserisci il percorso se richiesto, oppure esegui:
+   RestoryItalianPatch.exe uninstall "D:\percorso\steamapps\common\Restory"
 Il patcher rimuove i file che ha installato e ripristina quelli sostituiti.
 
 REQUISITI
