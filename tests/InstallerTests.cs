@@ -74,6 +74,8 @@ internal static class InstallerTests
             Engine(game, payload).Uninstall();
             Equal("original", File.ReadAllText(overwritten), "uninstall restores overwritten original");
             False(File.Exists(Path.Combine(game, "BepInEx", "plugins", "RestoryItalianPatch", "new.txt")), "uninstall removes new patch file");
+            False(File.Exists(Path.Combine(game, ".doorstop_version")), "uninstall removes patch-owned Doorstop version marker when no other plugins remain");
+            False(File.Exists(Path.Combine(game, "changelog.txt")), "uninstall removes patch-owned loader changelog when no other plugins remain");
             False(Directory.Exists(Path.Combine(game, InstallerEngine.StateDirectoryName)), "uninstall removes patch state");
         });
     }
@@ -132,6 +134,8 @@ internal static class InstallerTests
 
             Engine(game, payload).Uninstall();
             Equal("bundled loader", File.ReadAllText(Path.Combine(game, "BepInEx", "core", "BepInEx.dll")), "patch-owned loader retained when another plugin relies on it");
+            Equal("Doorstop 6", File.ReadAllText(Path.Combine(game, ".doorstop_version")), "patch-owned Doorstop marker retained with loader");
+            Equal("BepInEx changelog", File.ReadAllText(Path.Combine(game, "changelog.txt")), "patch-owned loader changelog retained with loader");
             Equal("other plugin", File.ReadAllText(otherPlugin), "unrelated plugin remains installed");
             False(File.Exists(Path.Combine(game, "BepInEx", "plugins", "RestoryItalianPatch", "new.txt")), "patch plugin removed while retaining loader");
         });
@@ -197,6 +201,8 @@ internal static class InstallerTests
         File.WriteAllText(Path.Combine(payload, "BepInEx", "plugins", "RestoryItalianPatch", "sample.txt"), "patch");
         File.WriteAllText(Path.Combine(payload, "BepInEx", "plugins", "RestoryItalianPatch", "new.txt"), "new patch file");
         File.WriteAllText(Path.Combine(payload, "BepInEx", "core", "BepInEx.dll"), "bundled loader");
+        File.WriteAllText(Path.Combine(payload, ".doorstop_version"), "Doorstop 6");
+        File.WriteAllText(Path.Combine(payload, "changelog.txt"), "BepInEx changelog");
     }
 
     private static void WithFixture(Action<string, string, string> test)

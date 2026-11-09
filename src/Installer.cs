@@ -287,6 +287,8 @@ namespace RestoryItalianPatch
             var normalized = relative.Replace('\\', '/');
             return String.Equals(normalized, "winhttp.dll", StringComparison.OrdinalIgnoreCase) ||
                 String.Equals(normalized, "doorstop_config.ini", StringComparison.OrdinalIgnoreCase) ||
+                String.Equals(normalized, ".doorstop_version", StringComparison.OrdinalIgnoreCase) ||
+                String.Equals(normalized, "changelog.txt", StringComparison.OrdinalIgnoreCase) ||
                 normalized.StartsWith("BepInEx/core/", StringComparison.OrdinalIgnoreCase) ||
                 normalized.StartsWith("BepInEx/patchers/", StringComparison.OrdinalIgnoreCase);
         }
