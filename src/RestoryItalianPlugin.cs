@@ -21,8 +21,8 @@ namespace RestoryItalianPatch
         {
             try
             {
-                var translationPath = Path.Combine(Path.GetDirectoryName(Info.Location), "ui.tsv");
-                _catalog = TranslationCatalog.Load(translationPath);
+                var translationDirectory = Path.GetDirectoryName(Info.Location);
+                _catalog = TranslationCatalog.LoadDirectory(translationDirectory);
                 _italianActive = Application.systemLanguage == SystemLanguage.Italian;
                 _harmony = new Harmony("it.alessio.restory.italian");
 

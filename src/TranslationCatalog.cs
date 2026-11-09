@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -21,6 +22,29 @@ namespace RestoryItalianPatch
         public static TranslationCatalog Load(string path)
         {
             var translations = new Dictionary<string, string>(StringComparer.Ordinal);
+            LoadFile(path, translations);
+            return new TranslationCatalog(translations);
+        }
+
+        public static TranslationCatalog LoadDirectory(string directory)
+        {
+            if (!Directory.Exists(directory)) throw new DirectoryNotFoundException("Translation folder was not found: " + directory);
+            var files = Directory.GetFiles(directory, "ui*.tsv", SearchOption.TopDirectoryOnly)
+                .Where(path => String.Equals(Path.GetFileName(path), "ui.tsv", StringComparison.OrdinalIgnoreCase) ||
+                    (Path.GetFileName(path).StartsWith("ui-", StringComparison.OrdinalIgnoreCase) &&
+                     String.Equals(Path.GetExtension(path), ".tsv", StringComparison.OrdinalIgnoreCase)))
+                .OrderBy(path => String.Equals(Path.GetFileName(path), "ui.tsv", StringComparison.OrdinalIgnoreCase) ? 0 : 1)
+                .ThenBy(path => Path.GetFileName(path), StringComparer.Ordinal)
+                .ToList();
+            if (files.Count == 0) throw new FileNotFoundException("No ui.tsv or ui-*.tsv translation files were found in " + directory + ".");
+
+            var translations = new Dictionary<string, string>(StringComparer.Ordinal);
+            foreach (var path in files) LoadFile(path, translations);
+            return new TranslationCatalog(translations);
+        }
+
+        private static void LoadFile(string path, Dictionary<string, string> translations)
+        {
             var lineNumber = 0;
             foreach (var line in File.ReadAllLines(path, Encoding.UTF8))
             {
@@ -31,10 +55,9 @@ namespace RestoryItalianPatch
                 var key = Unescape(line.Substring(0, separator));
                 var value = Unescape(line.Substring(separator + 1));
                 if (key.Length == 0 || value.Length == 0) throw new InvalidDataException("Empty key or translation at line " + lineNumber + ".");
-                if (translations.ContainsKey(key)) throw new InvalidDataException("Duplicate translation key at line " + lineNumber + ": " + key);
+                if (translations.ContainsKey(key)) throw new InvalidDataException("Duplicate translation key in " + Path.GetFileName(path) + " at line " + lineNumber + ": " + key);
                 translations.Add(key, value);
             }
-            return new TranslationCatalog(translations);
         }
 
         public string Translate(string key, string source)

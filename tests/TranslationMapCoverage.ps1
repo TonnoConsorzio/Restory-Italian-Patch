@@ -1,12 +1,12 @@
 param(
     [Parameter(Mandatory = $true)]
     [string] $SourceCorpus,
-    [string] $TranslationMap
+    [string] $TranslationDirectory
 )
 
 $ErrorActionPreference = 'Stop'
-if ([string]::IsNullOrEmpty($TranslationMap)) {
-    $TranslationMap = Join-Path $PSScriptRoot '..\payload\BepInEx\plugins\RestoryItalianPatch\ui.tsv'
+if ([string]::IsNullOrEmpty($TranslationDirectory)) {
+    $TranslationDirectory = Join-Path $PSScriptRoot '..\payload\BepInEx\plugins\RestoryItalianPatch'
 }
 
 function Unescape-MapValue([string] $Value) {
@@ -22,32 +22,39 @@ function Unescape-MapValue([string] $Value) {
             'r' { [void] $result.Append("`r") }
             't' { [void] $result.Append("`t") }
             '\' { [void] $result.Append('\') }
-            default { throw "Unsupported escape '\$($Value[$i])' in $TranslationMap." }
+            default { throw "Unsupported escape '\$($Value[$i])' in map value." }
         }
     }
     return $result.ToString()
 }
 
 $corpus = Get-Content -LiteralPath $SourceCorpus -Raw -Encoding UTF8 | ConvertFrom-Json
-$source = @{}
+$source = [Collections.Generic.Dictionary[string,string]]::new([StringComparer]::Ordinal)
 foreach ($property in $corpus.ui.PSObject.Properties) { $source[$property.Name] = [string]$property.Value }
-$map = @{}
-$lineNumber = 0
-foreach ($line in Get-Content -LiteralPath $TranslationMap -Encoding UTF8) {
-    $lineNumber++
-    if ([string]::IsNullOrWhiteSpace($line) -or $line.StartsWith('#')) { continue }
-    $separator = $line.IndexOf("`t")
-    if ($separator -lt 1) { throw "Invalid map row at line $lineNumber." }
-    $key = Unescape-MapValue $line.Substring(0, $separator)
-    $value = Unescape-MapValue $line.Substring($separator + 1)
-    if ($map.ContainsKey($key)) { throw "Duplicate map key '$key'." }
-    if (-not $source.ContainsKey($key)) { throw "Map key '$key' is absent from the source corpus." }
-    if ([string]::IsNullOrWhiteSpace($value)) { throw "Empty translation for '$key'." }
-    $tokenPattern = '<[^>]+>|\{[^{}]+\}|%[0-9]*[a-zA-Z]'
-    $sourceTokens = [regex]::Matches($source[$key], $tokenPattern).Value -join "`0"
-    $targetTokens = [regex]::Matches($value, $tokenPattern).Value -join "`0"
-    if ($sourceTokens -cne $targetTokens) { throw "Placeholder/rich-text token mismatch for '$key'." }
-    $map[$key] = $value
+$map = [Collections.Generic.Dictionary[string,string]]::new([StringComparer]::Ordinal)
+$baseFile = Join-Path $TranslationDirectory 'ui.tsv'
+if (-not (Test-Path -LiteralPath $baseFile)) { throw "Required base map ui.tsv is missing from $TranslationDirectory." }
+$shardNames = @(Get-ChildItem -LiteralPath $TranslationDirectory -File | Where-Object { $_.Name -match '^ui-.+\.tsv$' } | ForEach-Object { $_.Name })
+[Array]::Sort($shardNames, [StringComparer]::Ordinal)
+$translationFiles = @($baseFile) + @($shardNames | ForEach-Object { Join-Path $TranslationDirectory $_ })
+foreach ($path in $translationFiles) {
+    $lineNumber = 0
+    foreach ($line in Get-Content -LiteralPath $path -Encoding UTF8) {
+        $lineNumber++
+        if ([string]::IsNullOrWhiteSpace($line) -or $line.StartsWith('#')) { continue }
+        $separator = $line.IndexOf("`t")
+        if ($separator -lt 1) { throw "Invalid map row in $(Split-Path $path -Leaf) at line $lineNumber." }
+        $key = Unescape-MapValue $line.Substring(0, $separator)
+        $value = Unescape-MapValue $line.Substring($separator + 1)
+        if ($map.ContainsKey($key)) { throw "Duplicate map key '$key' in $(Split-Path $path -Leaf)." }
+        if (-not $source.ContainsKey($key)) { throw "Map key '$key' is absent from the source corpus." }
+        if ([string]::IsNullOrWhiteSpace($value)) { throw "Empty translation for '$key'." }
+        $tokenPattern = '<[^>]+>|\{[^{}]+\}|%[0-9]*[a-zA-Z]'
+        $sourceTokens = [regex]::Matches($source[$key], $tokenPattern).Value -join "`0"
+        $targetTokens = [regex]::Matches($value, $tokenPattern).Value -join "`0"
+        if ($sourceTokens -cne $targetTokens) { throw "Placeholder/rich-text token mismatch for '$key'." }
+        $map[$key] = $value
+    }
 }
 
 $achievementNames = @($source.Keys | Where-Object { $_ -match '^ACH_.+_NAME$' })

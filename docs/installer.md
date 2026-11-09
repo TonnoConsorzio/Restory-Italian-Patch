@@ -20,7 +20,9 @@ Without an explicit payload folder, install reads `payload` beside the executabl
 
 ## Release payload seam
 
-The runtime/plugin project and BepInEx release files are not present yet. The current executable is therefore a buildable installer core and is not a distributable Italian patch. Place the verified plugin and loader files under a `payload` directory, preserving their paths relative to the game root, before packaging a release. The plugin should live in `BepInEx\plugins\RestoryItalianPatch\`. The loader payload should include the Windows Mono bootstrap files and `BepInEx\core` assemblies needed by the selected BepInEx build.
+The payload now includes BepInEx 6.0.0-be.792 for Unity Mono, the runtime plugin, and an Italian UI map at `BepInEx\plugins\RestoryItalianPatch\ui.tsv`. The plugin also loads disjoint `ui-*.tsv` shards in deterministic filename order and rejects duplicate keys. Build the plugin with `src\build-plugin.ps1`, passing `-ManagedGameFolder` and `-BepInExCoreFolder` for the supported game and loader assemblies. The installer still builds through the existing `build.ps1` entry point.
+
+Ticket 2 remains partial and unresolved: the current map translates 229 of 2,146 UI keys, including all 50 achievement names and all 50 descriptions. The other 1,917 keys fall back to the English source until translated shards are added. Run `tests\TranslationMapCoverage.ps1 -SourceCorpus <path-to-read-only-corpus>` to report coverage, achievement counts, unknown IDs, and token mismatches. Do not add the source corpus to the repository.
 
 The installer hashes every payload file, stages it, records preexisting destinations under `.RestoryItalianPatch\backups`, and writes an XML manifest and journal before activation. Repeat installation with the same payload is a no-op. Uninstall restores replaced files and deletes patch-created files. It refuses to overwrite a file modified after installation. It only treats `winhttp.dll` and known BepInEx core assemblies as evidence that the loader already exists. If another plugin is present at uninstall time, loader files installed by this patch are kept.
 
