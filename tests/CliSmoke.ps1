@@ -1,6 +1,9 @@
 $ErrorActionPreference = 'Stop'
-$exe = Join-Path $PSScriptRoot '..\dist\RestoryItalianPatch.exe'
-if (-not (Test-Path -LiteralPath $exe)) { throw 'Build the CLI with build.ps1 before running the CLI smoke test.' }
+$dist = Join-Path $PSScriptRoot '..\dist'
+$release = Get-ChildItem -LiteralPath $dist -Directory -Filter 'RestoryItalianPatch-*' | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+if (-not $release) { throw 'Build the CLI with build.ps1 before running the CLI smoke test.' }
+$exe = Join-Path $release.FullName 'RestoryItalianPatch.exe'
+if (-not (Test-Path -LiteralPath $exe)) { throw 'The latest release folder does not contain the CLI executable.' }
 $root = Join-Path $PSScriptRoot ('..\work\cli-' + [Guid]::NewGuid().ToString('N'))
 $game = Join-Path $root 'steamapps\common\Restory'
 $steamApps = Join-Path $root 'steamapps'

@@ -1,0 +1,377 @@
+1	2	Quale episodio iniziamo? (Funzione monouso!!! Riavvia il gioco per sceglierne un altro!)
+1	3	TEST 2
+1	6	TEST HACK DISPOSITIVO
+1	9	Inviare un invito alla gara
+1	11	Episodio 1
+1	13	Episodio 2
+1	15	Episodio 3
+1	17	Episodio 4
+1	19	Episodio 5
+1	21	Episodio 6
+1	23	Episodio 7
+1	25	Impostazioni episodio 7
+1	26	Scegli PNG
+1	27	Hai scelto Secchio
+1	29	Hai scelto Kaito
+1	31	Hai scelto Haruhi
+1	33	Non hai scelto nessuno
+1	35	Torna...
+1	36	Scegli impostazione predefinita (Secchio)
+1	37	Configura variabili
+1	38	Hai dato il numero a Hashimoto = sì
+1	40	Variabile modificata
+1	41	Hai dato il numero a Hashimoto = no
+1	43	Hai preso i soldi dal dispositivo del rivale = sì
+1	45	Hai preso i soldi dal dispositivo del rivale = no
+1	47	Hai dato il dispositivo di intercettazione a Kaito = sì
+1	49	Hai dato il dispositivo di intercettazione a Kaito = no
+1	51	Hai mandato Haruhi dal corriere = sì
+1	53	Hai mandato Haruhi dal corriere = no
+1	55	Episodio 8
+1	57	Impostazioni episodio 8
+1	58	Predefinito. Hai scelto Secchio + Sakamoto\n\nHashimotoSys.GavePaper false\n\nRival.ReturnedMoney false\n\nHaruhi non è con il corriere\n\nKaito.GaveListeningDevice = false
+1	60	Configura variabili
+1	61	Hai dato il numero a Hashimoto = sì
+1	63	Variabile modificata
+1	64	Hai dato il numero a Hashimoto = no
+1	66	Hai preso i soldi dal dispositivo del rivale = sì
+1	68	Hai preso i soldi dal dispositivo del rivale = no
+1	70	Hai dato il dispositivo di intercettazione a Kaito = sì
+1	72	Hai dato il dispositivo di intercettazione a Kaito = no
+1	74	Hai mandato Haruhi dal corriere = sì
+1	76	Hai mandato Haruhi dal corriere = no
+1	78	Configura le risposte dell'episodio 7
+1	79	Domande dell'episodio 7: domanda 1
+1	80	Alla prima domanda hai scelto la risposta 1
+1	82	Domande dell'episodio 7: domanda 2
+1	83	Alla seconda domanda hai scelto la risposta 1
+1	85	Domande dell'episodio 7: domanda 3
+1	86	Alla terza domanda hai scelto la risposta 1
+1	88	Domande dell'episodio 7: domanda 4
+1	89	Alla quarta domanda hai scelto la risposta 1
+1	91	Ora scegli il PNG (chi se la passa bene, oggi?)
+1	92	Scegli PNG
+1	93	Hai scelto Secchio
+1	95	Hai scelto Kaito
+1	97	Hai scelto Haruhi
+1	99	Non hai scelto nessuno
+1	101	Alla quarta domanda hai scelto la risposta 2
+1	103	Alla terza domanda hai scelto la risposta 2
+1	105	Alla terza domanda hai scelto la risposta 3
+1	107	Alla seconda domanda hai scelto la risposta 2
+1	109	Alla seconda domanda hai scelto la risposta 3
+1	111	Alla prima domanda hai scelto la risposta 2
+1	113	Alla prima domanda hai scelto la risposta 3
+1	115	Torna
+4	4	Sembra tutto a posto, eh? Ecco i soldi; ora puoi pagarmi l'affitto che mi devi. Che fiera stupida, che gara stupida. Solo rumore!
+4	5	Chiedere come iscriversi alla gara
+4	6	Ma sai cosa stai chiedendo? Non puoi presentarti lì e gareggiare così. Nessuno ti conosce, non hai fama. Non hai nemmeno un saldatore! Dovresti comprarne uno prima, ma... ci sono dei problemi...
+4	7	Ecco fatto! Manderò il mio elettricista. Ti aiuterà con la luce e a procurarti un saldatore. Ha contatti nel settore e può anche installarti il contatore. Ah già, non ce l'hai.
+4	10	Chiedere se può aiutarti a ottenere una licenza per un cane robot
+4	11	Ah... Ho sentito che è difficile da ottenere, ma ho stretto un accordo di sponsorizzazione con il produttore. Hanno detto che daranno una licenza al prossimo vincitore della gara dei maestri riparatori.
+4	16	Hai la lingua lunga, mi aspettavo di più da te. La storia di mio figlio era per le tue orecchie, non per la polizia. Ah, e passerà più tardi. Ma ormai è acqua passata: concentriamoci sulle altre cose.
+4	18	Vedi, organizzo una fiera con una grande gara per maestri riparatori. Ma gli idioti che lavorano per me hanno rotto il mio unico mezzo di comunicazione! Senza di me sono un branco di polli senza testa.
+4	19	Be', tecnicamente mi è caduto, ma è colpa loro! Sempre chiassosi, pieni di domande, sempre tra i piedi. Mi serve riparato, subito!
+4	20	E non dirlo a nessuno. E sembri distrutto: cerca di dormire di più. Un maestro morto non mi serve a molto!
+4	23	Anche tu, eh? Uffa... Non ho tempo, ci penserò dopo. Ci vediamo!
+6	4	Niente male, sembra funzionare. Ecco il pagamento; ora passiamo alle cose importanti. Ascolta bene. Ci ho pensato e...
+6	5	Ho deciso di puntare su di te per la gara. Sorpreso? Non dovresti. E metterò in pausa anche l'offerta di acquisto. Non è personale, è solo affari. Mi conviene avere più negozi di riparazioni, non uno soltanto.
+6	6	Per partecipare alla gara ti serve una reputazione. Tu non ce l'hai. Hai le mani d'oro, ma nessuno conosce il tuo nome, ed è un problema. Manderò qualcuno da te...
+6	7	Ti aiuterà a farti una reputazione. Sa cosa fare; ignora solo i suoi... gusti particolari. Non deludermi, maestro, non faccio beneficenza. E grazie per avermi riparato il telefono.
+6	9	Ringraziarlo per l'aiuto
+6	12	Vedo che hai fatto qualche miglioria. Hai comprato un saldatore, tornerà utile. Hanno potenziato la tua rete e ho dovuto pagare io... Puoi ripagarmi riparandola.
+6	13	Sono passato dal tuo concorrente dall'altra parte della strada per parlare della sua offerta. Vuole comprare il tuo negozio. Mentre parlavamo, avevo il telefono collegato al suo caricatore...
+6	14	Appena ha acceso il saldatore, c'è stato uno sbalzo di corrente... Lo schermo ha sfarfallato, ha iniziato a fumare e ora non si accende. Le trattative sono in pausa. E adesso non mi va più tanto di cederglielo.
+6	16	Risolvi questo problema e io penserò al nostro dilemma. Cerca di fare in fretta: il mio telefono tiene in piedi tutta Akiba... Sono dannatamente stanco...
+6	17	Digli che ci penserai subito e che non deve nemmeno pagarti!
+6	19	Non hai imparato niente, eh? No. Mi farai pagare la tariffa normale.
+6	21	Digli che lo riparerai senza problemi
+8	2	Maestro. So chi è passato e so di chi è il telefono sulla tua scrivania. È una cosa molto seria.
+8	3	Chiedergli se c'entra quella ragazza, Yui
+8	5	Eh? Una ragazza? Siete tutti d'accordo alle mie spalle? Anche tu, Kaito? Hai idea di cosa hai combinato?
+8	6	Quel telefono... Quello che contiene potrebbe risolvere la faccenda con quegli uomini d'affari, ma quell'idiota di Sakamoto l'ha rubato. Non sa quello che fa!
+8	7	Chiedergli cosa significa tutto questo
+8	8	È il telefono di Haruhi. Ha registrato una conversazione tra quegli uomini d'affari che vogliono cambiare tutto qui...
+8	9	Hai idea di dove l'abbia preso, o come? Gli parlerò seriamente. Se ti fa stare meglio, glielo riporterò io...
+8	10	Chiedergli della ragazza
+8	11	Non so nulla di lei, ma tutta questa storia potrebbe farle del male. Dammi il telefono, la cercherò io. Per te.
+8	18	Dire che il poliziotto ha portato il telefono a riparare e che glielo stai restituendo
+8	19	Quel telefono non è suo. Traccio tutti i telefoni dei dipendenti delle mie attività... Capisci?
+9	5	Sono esausto, maestro. Va tutto a rotoli. Kaito è sparito, la gente vende i negozi... Questa misteriosa società sta comprando tutti per costruire un centro commerciale enorme!
+9	6	È cominciato tutto quando sei arrivato tu! Il vecchio maestro sparisce e all'improvviso spunti fuori tu!
+9	7	Avrai notato che non hai nuovi clienti da un bel po'... La strada si svuota, stanno comprando tutti e cacciano via la gente!
+9	8	Il tuo concorrente si è offerto di comprare il negozio, a un prezzo folle! Ma ora... Ora non si tratta più!
+9	9	Quella società comprerà tutta la zona, negozio per negozio, e raderà al suolo ogni cosa... Con ogni mezzo... Non mi piace per niente...
+9	13	Prendi la mia vecchia radio e riparala, maestro. La darò al corriere. Potrebbe servirgli: stanno organizzando un concerto o qualcosa del genere. Chissà, magari ne tira fuori qualcosa, ma sono scettico.
+9	14	Mentre il corriere si occupa del concerto, io devo rimediare a tutti i guai che hai combinato... Sistemare i rapporti tra le persone è molto più complicato che stringere qualche vite...
+9	15	Dobbiamo capire cosa succede ad Akiba. Ormai metà dei negozi sono vuoti e la gente se ne va in massa! Almeno Sakamoto non sarà più un problema.
+9	17	Chiedere cosa ha fatto a Sakamoto
+9	18	Abbiamo trovato un accordo, che altro? Non sono giocattoli, e questa non è una pellicola. Se non ti impicciassi degli affari altrui, maestro, non sarebbe successo niente!
+9	19	Chi ti ha chiesto di mandare via il ragazzo? E se fosse stata la nostra Kiyoko? Non è tua figlia! E poi, chi diavolo prende ordini da una bambina?
+9	20	... Riparami la radio, maestro. Tornerò a prenderla.
+9	22	Dire che le darai un'occhiata...
+9	23	Non dire nulla.
+10	12	Kiyoko mi ha portato un telefono. Ha detto che gliel'ha dato Kaito. Non so perché non sia venuto lui, ma non mi interessa. È il telefono del tuo concorrente e non so nemmeno come Kiyoko l'abbia avuto. Però qualche sospetto ce l'ho...
+10	13	E grazie ancora per tutte le informazioni. Potrebbero perfino aiutarci con il cordone che circonda Akiba. Forse ho fatto bene a fidarmi di te, maestro.
+10	18	Quello che hai scoperto vale più di quanto pensi. Ma quelli sono problemi miei; per i tuoi, chiederò a qualcuno di tenere d'occhio il negozio in questi tempi difficili.
+10	19	Ringraziarlo per l'aiuto...
+10	20	Non serve ringraziarmi. Dopotutto, il negozio è mio. Non dimenticare che qui è tutto mio.
+11	4	Non sopporto Akiba! Il rumore, la folla... Qui con te c'è sempre più pace.
+11	5	Stai pulendo? Sono qui per il negozio. Come dicono tutti, ora è tuo. Non tutto qui appartiene più a me, ma è un piccolo prezzo da pagare...
+11	6	Lascio Akiba per coltivare bonsai in campagna! Non mi serve molto per vivere bene... Solo un po' di silenzio e zen...
+11	7	Mi ha colpito tutto quello che hai fatto per salvare la mia Akiba. Ma non ti premierò con cianfrusaglie come gli altri. Ecco la tua ricompensa.
+11	9	Dire che ti prenderai cura di Akiba e ringraziarlo per ciò che ti ha insegnato
+11	13	Oh, maestro... Non so come mi sia lasciato trascinare in tutto questo. Gliel'avevo detto fin dall'inizio... E adesso non se ne farà più nulla. Il loro concerto. Quegli uomini d'affari l'hanno scoperto e hanno subito cambiato data...
+11	14	I soldi che sono riusciti a raccogliere non bastano... Ne servirebbero un sacco, quasi quanto costa questo negozio...
+11	15	Non guardare me. Anche quegli uomini d'affari mi tengono in pugno. Tutti i miei fondi sono bloccati; sono nella tua stessa situazione...
+11	16	Offrirsi di vendere il negozio a Takumi e donare il ricavato al concerto
+11	17	Non hai imparato niente, eh? Sì, hai la testa sulle spalle e abbastanza soldi, ma chi ci dice che la loro offerta sia ancora valida? Però...
+11	18	Va bene. Non sono affari miei cosa farai senza questo negozio... Ma forse ne vale la pena. Vedremo...
+11	20	Dire che forse è meglio così. Avevano promesso di pagare tutto una volta costruito...
+11	21	Hai visto cosa vogliono fare, maestro! Credi che si sistemerà tutto per magia quando costruiranno quel centro commerciale?
+11	22	Dire che la tecnologia e i centri commerciali sono il futuro e che è ora di smettere di vivere nel passato
+11	23	Finalmente! Pare che non abbia più nulla da insegnarti. Certo, così vali meno per me, ma che ci vuoi fare.
+16	8	Sta benissimo! È tutta intera! Non le è successo niente! È semplicemente fantastica! Per ora si nasconde a casa mia e sono felicissimo, potrei scoppiare! Evviva!
+16	9	Dire che tutto è bene quel che finisce bene
+16	10	Ha detto che si sentiva in pericolo per via della gara, ecco perché aveva paura. E non aveva tutti i torti!
+16	11	Il maid café resterà chiuso per un po'. Dopo quello che è successo... Pare ci fossero scommesse clandestine sulla gara...
+16	12	Controllo i risultati... Non ci credo, maestro! Dalla classifica risulta che hai vinto in ogni singolo criterio! Sei il nuovo campione! L'ultimo campione di Akiba!
+16	14	Ringraziarlo per il sostegno e augurargli buona fortuna
+16	23	No, no, no... Starò bene... È solo che... Sono così stanco, non dormo da tre giorni! Non riesco a calmarmi! Che faccio?!
+16	24	Dire che hai saputo che è al sicuro e di non preoccuparsi
+16	25	Com'è possibile? Perché non l'ha detto a me, o a qualcun altro a scuola o al lavoro? La polizia la sta ancora cercando; ci sono passato poco fa!
+16	26	Dire che si sentiva in pericolo per via della gara, ecco perché aveva paura
+16	28	Ah, già... Maestro... Ehm... Ecco, questo è l'ultimo dispositivo per la gara...
+16	29	Chiedergli se Haruhi si è fatta viva
+16	30	Eh? Non lo so... Non hai visto o sentito cos'è successo? Al maid café...
+16	31	C'era un gran baccano e la gente urlava... È arrivata la polizia! Ho visto le luci passando. Stavano arrestando delle persone...
+16	32	Senti... Io... Credo di lavorare per le persone sbagliate... Ho paura... E se fosse tutto collegato...
+16	33	Sai, per Haruhi! Tutto quel caos! Il maid café... La mia Haruhi... Oh, cielo!
+16	34	Dirgli di smetterla e di fare un bel respiro
+16	43	Hai dato via il tuo dispositivo... Oh... Era un Autorolla? Ah...
+16	46	Non ci crederai, maestro, ma ho scoperto in che scuola va! Ed è bravissima! La mia Haruhi.
+16	47	Dire che la situazione non può essere così grave e chiedergli cosa ha detto la polizia
+16	48	Non mi fido di loro! Dovrò andare a trovare Hashimoto... Anche se non ne ho affatto voglia. Fa paura!
+16	50	Ah, già, la gara. Dice che sei in testa. Almeno a qualcuno va bene...
+16	51	Ringraziarlo per le informazioni e augurargli buona fortuna
+16	52	Oh, il prossimo dispositivo è l'ultimo! Dai il massimo, maestro!
+16	56	Non riesco ancora a trovarla! AAH! La mia Haruhi! Che faccio? Sto per avere una crisi di nervi!
+16	60	Aiutami, maestro! Non ce la faccio! Sono andato alla polizia, ma nessuno ha voluto aiutarmi. Solo un agente ha detto che avrebbe dato un'occhiata in giro; l'ho già visto al café.
+16	61	È stranissimo! Parla sempre dei suoi gatti, ma... E se fosse d'accordo con loro, eh? Maestro! Non ce la faccio! Ti prego, aiutami!
+16	62	Dire che ha parlato degli esami e dell'università...
+16	64	Aspetta... Non può essere! È all'università anche lei? Accidenti, la mia Haruhi è proprio in gamba! Oh... Dov'è...
+16	65	Comunque, grazie! Ah, già, la gara! C'è un nuovo dispositivo nell'elenco! Uff... L'universo si sta prendendo gioco di me!
+16	66	Dirgli di non preoccuparsi e di sperare per il meglio
+16	68	Dire che non sai se hai informazioni utili
+16	70	No, no, va tutto bene! Deve andare bene!
+16	77	Sono nel panico! Non può essere sparita così, di punto in bianco! E se fosse in pericolo?!
+16	78	Dirgli che magari è andata da qualche parte, per esempio a trovare sua madre, e di calmarsi.
+16	80	Ah, già, scusa. Per aggiornarti sulla gara: stai andando benissimo! Dov'è Haruhi?! L'hai vista, maestro?
+16	81	Dire che non è passata e chiedergli se è andato alla polizia
+16	82	Certo! Sei così intelligente! Bene, devo andare! Ci vediamo! Non aspettarmi alzato!
+16	86	Maestro! Haruhi... Lei... Io... Lei! Come?! Non riesco a trovarla! Da nessuna parte! È grave, molto grave! Ho cercato ovunque: al café, per Akiba. L'ho chiamata, le ho scritto... niente!
+16	87	Maestro, non capisci? Ho cercato ovunque! Nemmeno al lavoro sanno dov'è! Sono andato anche a casa sua! No, non mi aveva invitato, ho solo... trovato da solo dove abita. Ma non c'è neanche lì!
+16	88	Dirgli che magari è andata da qualche parte, per esempio a trovare sua madre, e di calmarsi.
+16	90	Ah, già! Scusa! La gara! Scegli pure un altro dispositivo nell'app. Bene, devo andare! Dov'è la mia Haruhi...
+16	91	Augurargli buona fortuna con le ricerche
+16	96	Eccomi! Accidenti, maestro! Sei tra i primi tre, continua così!
+16	97	Per ora è tutto. Sono arrivati gli altri risultati; più tardi tornerò con notizie sul prossimo dispositivo!
+16	98	Ah, un'altra cosa! Nessuno ti vieta di usare l'app «per conto tuo», per fare un po' di pratica. Fai un ordine e te lo porto!
+16	99	E se durante gli allenamenti stabilisci un record, vinci comunque un premio! Ci vediamo, per ora rilassati!
+16	102	Congratulazioni, maestro! Ora partecipi ufficialmente alla gara dei maestri riparatori di Akiba! Andiamo!
+16	104	Senti, le regole sono semplici. Hai installato l'app, vero? Controlla di nuovo la posta: arriva tutto lì!
+16	105	Scegli un dispositivo dall'elenco nell'app e paga la quota. Sì, c'è una quota per ogni tentativo: che ti aspettavi? Te lo porto appena possibile e dovrai rimontarlo più in fretta che puoi! Però...
+16	106	Non è così facile, maestro! Non avrai suggerimenti e potrai ritirare i componenti solo nell'ordine giusto. Altrimenti dovrai ricominciare, ma il tempo continua a scorrere! Ci sono telecamere dappertutto, quindi niente imbrogli!
+16	107	Vedrai anche il record attuale, nell'app! Se lo superi, avrai un premio! E se poi batti il tuo stesso record, ne avrai un altro! Forte, eh?
+16	108	Quando avrai finito il dispositivo tornerò ad aggiornarti! Buona fortuna!
+16	109	Digli che ci penserai appena possibile!
+17	2	Ehi, sono io, maestro. Ti ho portato una consegna, ma non so da chi arrivi...
+17	3	No, i documenti sono a posto, tecnicamente, ma faccio questo lavoro da tanto e non tornano. Sembra che qualcuno abbia cercato di spedirla anonimamente...
+17	4	Comunque non so cos'è, ma qualcuno vuole che tu la ripari, quindi... Fai come vuoi...
+17	5	Dire che ci darai un'occhiata...
+18	3	Sì, maestro? Mi hai chiamato?
+18	4	Chiedergli di sbarazzarsi del portatile come può
+18	5	Come vuoi, maestro! ... In realtà... Che cos'ha? Posso tenerlo per me?
+18	6	Dire che è distrutto e che è meglio riciclarlo
+18	7	Va bene, capito. Farò quel che devo!
+18	24	Dire che può tenerlo, ma che non ha né disco rigido né memoria
+19	4	Gridare al corriere che si allontana che probabilmente non lo faranno entrare senza una consegna!
+19	10	Incongruenza
+19	18	Incongruenza
+19	19	Incongruenza
+19	20	Incongruenza
+19	21	Incongruenza
+19	22	Incongruenza
+19	23	Incongruenza
+19	24	Incongruenza
+19	25	Incongruenza
+19	26	Incongruenza
+19	36	Incongruenza
+19	40	Incongruenza
+19	41	Incongruenza
+19	45	Incongruenza
+19	46	Incongruenza
+19	47	Incongruenza
+19	48	Incongruenza
+19	49	Incongruenza
+19	50	Incongruenza
+19	57	Incongruenza
+19	58	Incongruenza
+19	59	Incongruenza
+19	66	Incongruenza
+19	70	Incongruenza
+19	71	Incongruenza
+19	72	Incongruenza
+19	74	Incongruenza
+19	79	Incongruenza
+19	83	Incongruenza
+19	91	Incongruenza
+19	92	Incongruenza
+19	96	Incongruenza
+21	4	Ehi! Sono felice che tu abbia riaperto, avrò di nuovo qualcosa da fare! Oh, il concerto è stato uno spasso!
+21	5	Ho deciso che resto con te! Continuerò a consegnare bollette e ordini e a ritirare la merce da vendere. Lascia tutto sul bancone. Ah, ormai le bollette non ti servono più: il negozio è tuo!
+21	10	Haruhi, la luce della mia vita, non lavora più al maid café qui vicino. Ma resteremo in contatto via email! Ah, maestro, mi sembra primavera nel cuore!
+21	11	Ok, ora devo andare. Nel mio lavoro la velocità è tutto. Zooooom!
+21	22	È una crisi, maestro! È tutto perduto. Niente più concerto, niente più Akiba! E niente più negozio!
+21	23	Ci hanno mentito! Avevamo un altro mese per consegnare quei documenti, ma le ruspe sono già qui, in fondo alla strada! È il caos!
+21	24	Non abbiamo nemmeno fatto in tempo a raccogliere abbastanza soldi! Per l'attrezzatura, la logistica, qualsiasi cosa! Che facciamo, maestro?!
+21	26	Aspetta, Hashimoto sta venendo a trovarti! Devo scappare, ma lui ti spiegherà tutto!
+24	5	Grazie mille per averlo riparato! Scommetto che ora funziona meglio di prima! Adoro giocare ai miei videogiochi preferiti!
+24	7	Scusa se te lo chiedo di nuovo, ma... Mi manca tanto il mio cane robot... È stato il mio unico amico per tutto questo tempo. Mi sento così sola senza di lui!
+24	8	So che non ti interessa affatto, ma c'è qualche possibilità che tu possa procurarmi una licenza per un cane robot?
+24	9	Scrivere che vedrai cosa puoi fare
+24	11	Si dice che vincendo la prossima gara dei maestri riparatori si ottenga quella licenza! Se trovo altre informazioni, ti mando subito un'email! Scusa il disturbo! Grazie mille per l'aiuto! =^_^=
+24	13	Tirare la corda
+24	15	Scrivere che hai sentito che al momento è difficile ottenerla
+24	17	Eccomi di nuovo a disturbarti! Posso venire a prendere il mio piccolo amico malato? Grazie per avermelo riportato, mi è mancato tanto.
+24	19	Peccato che il maestro precedente sia scomparso. Lui avrebbe saputo ripararlo, ma con lui è svanita la mia ultima speranza. Non ci è riuscito nemmeno il campione locale.
+24	20	È un cane robot! Al momento è impossibile ottenere una licenza, quindi per ora sono tutta sola... Almeno ho i miei videogiochi! A proposito!
+24	22	Nel frattempo, per favore, ripara questo. Me l'hanno consegnato da poco, ma si è già rotto. A volte sono il mio peggior nemico! Grazie! =^_^=
+24	24	Tirare la corda
+25	5	Grazie mille per averlo riparato! Ecco i tuoi soldi! Scusa se ti porto tutti questi vecchi dispositivi... A proposito dei problemi elettrici, ho lanciato il mio script e ho ascoltato il traffico della rete locale...
+25	7	C'è una trasmissione strana! Traffico insolito, ed è cifrato! Compare ogni volta che salta la corrente da qualche parte!
+25	9	So che non ti interessa, ma... sono un po' preoccupata, e la fiera e la gara dei maestri riparatori si avvicinano... Sakamoto ha detto che ci saranno ospiti importanti!
+25	11	Probabilmente non ti interessa... Scusa! Giuro che non sono paranoica... Sono solo molto preoccupata... Grazie ancora per aver riparato le mie cose! Sono felice di avere i miei videogiochi!
+25	12	Scrivere «nessun problema» e tirare la corda
+25	17	Scusa il disturbo! La mia console sembra essersi rotta... Scusa se ti distraggo dal tuo lavoro importante!
+25	18	È saltata la corrente... E... Ho perso tutti i progressi in Advenchure! Quel gioco non ha salvataggi né trucchi! E quando è tornata la corrente, la console ha iniziato a fumare!
+25	20	Ultimamente ho un sacco di problemi con la corrente! E anche tu, visto che siamo sulla stessa linea. Cercherò online di capire cosa succede... Ti faccio sapere se scopro qualcosa!
+25	22	Scrivere che darai un'occhiata e tirare la corda
+27	7	Finalmente hanno pubblicato online i risultati! Ora so che hai vinto! Fantastico, congratulazioni!
+27	9	Quindi ora dovresti avere quella licenza, giusto? Pensi... Pensi che potresti riparare il mio cane robot? Ultimamente sono così in ansia; è il mio unico amico e protettore...
+27	11	Non voglio mentire, ho paura. Ieri notte qualcuno ha cercato di sfondare la mia porta, ho sentito dei rumori... Penso siano loro! Mi hanno trovata...
+27	13	Dico sul serio! Sta succedendo qualcosa. Forum e chat parlano tutti del centro commerciale, il nuovo futuro di Akiba... Non so...
+27	15	Non sono paranoica, giuro! Qualcuno sta diffondendo questi manifesti. Te li mando, dagli un'occhiata!
+27	17	Grazie per avermi ascoltata... Scusa per il panico. T_T
+27	18	Scrivere che hai accettato l'ordine e andrà tutto bene! Poi tirare la corda
+28	3	Sono contenta che tu abbia riparato il mio cane...
+28	4	Devo dire che... Le cose stanno... peggiorando. Qualcuno controlla sempre la mia rete e i miei script vengono intercettati per tutta Akiba...
+28	6	Io... Ho troppa paura per restare qui. Sono in grave pericolo... Forse mi hanno già trovata... Credo... di dover scappare. Ma non so dove andare...
+28	7	Scrivere che forse la polizia può aiutarla. Tirare la corda e attendere una risposta
+28	9	Hai... Hai ragione, probabilmente... Mi hanno già aiutata tanto, magari lo faranno anche stavolta. Grazie per aver riparato il cane, maestro...
+28	10	Scrivere che andrà tutto bene e tirare la corda
+28	12	Scrivere che può rifugiarsi da te, se serve. Tirare la corda e attendere una risposta
+28	14	Tu... Davvero? Grazie mille! Non so come potrò mai sdebitarmi, se non ti dispiace... Per me significherebbe tantissimo...
+28	16	Scusa, ma avresti posto per qualche computer e console, più un piccolo rack server? Prometto che terrò tutto in ordine. =^_^=
+28	17	Scrivere... Ehm, sì... Certo... Ecco l'indirizzo. Allegare la chiave e tirare la corda
+29	8	Oh! Vedo la mia TV, ora avrò un altro monitor! Grazie mille!
+29	9	Scrivere che ci hai pensato e hai trovato una risposta...
+29	10	Scrivere che vorresti essere ricordato come una brava persona che ha aiutato gli altri... E tirare la corda.
+29	12	Oh, maestro, non hai dimenticato la mia domanda... Scusa... È solo che... Non riesco a smettere di pensare a una cosa...
+29	13	Da quando sei qui... Non volevo, ma pareti e pavimenti sono sottilissimi... Ho sentito tutto quello che facevi e dicevi... e tutto il tuo traffico internet, visto che siamo sulla stessa rete...
+29	14	Scusa! Non l'ho fatto apposta, ma per me non c'erano segreti... Mi dispiace! Mi vergogno tantissimo! Io... Non ho altro da dire...
+29	17	Scrivere che preferiresti essere ricordato per tutto ciò che hai riparato, in senso letterale e figurato, piuttosto che come persona... E tirare la corda.
+29	20	Scusa il disturbo, maestro, sono di nuovo io... Ho trovato questa vecchia TV, ma non funziona da tanto...
+29	21	Me l'ha regalata Sakamoto, quando mi aiutava a trovare casa... Non sapeva che avevo con me un sacco di monitor, console e computer...
+29	22	L'ho uccisa cercando di usarla come monitor... E mi vergogno un po'... Andava tutto bene, ma ora... Una bella TV, andata...
+29	23	Questa TV mi porta tanti ricordi... Immagina se domani sparissi: per cosa vorresti essere ricordato? Scusa, è una domanda un po' folle, vero...
+29	24	Scrivere che è una domanda difficile e che sarà più facile riparare prima la TV... Poi tirare la corda.
+29	30	Ehi, sono io. Ho visto il bollitore, grazie mille! Ah, non vedo l'ora di mangiare una ciotola di ramen caldo...
+29	31	Maestro... Scusa se te lo chiedo, ma... Pensi di restare qui a lungo? Hai intenzione di fermarti o prima o poi di ripartire? Voglio dire... Casa tua è così vuota...
+29	32	Scrivere che preferisci vivere il presente e che poco altro conta... Poi tirare la corda...
+29	34	Non sono nato qui, quindi credo che una parte di me non si sentirà mai davvero di appartenere a questo posto...
+29	35	Scusa, probabilmente ti ho raccontato più di quanto volessi sapere. Ora smetto di distrarti! Il mio ramen caldo mi aspetta! Grazie, maestro! ^_^ 
+29	37	Scrivere che non ci hai mai pensato e cogli semplicemente le occasioni che ti offre la vita... Poi tirare la corda...
+29	39	Scrivere che per ora resti qui, ma nessuno sa cosa porterà il domani... Poi tirare la corda
+29	42	Maestro! Scusa... Non è una cosa grave, ma... Potresti dare un'occhiata a questo vecchio bollitore? Ho ancora del ramen istantaneo, ma ho portato il mio a casa tua e non posso prepararlo T_T
+29	43	Ah! Ieri a casa tua parlavamo di Hashimoto... Non abbiamo finito la conversazione e ora non riesco a smettere di pensarci...
+29	44	Secondo te, in fondo, è una brava persona... o cerca sempre di presentare le sue azioni nella luce migliore per il proprio tornaconto? Come se indossasse una maschera...
+29	45	Scrivere che probabilmente agiva per il bene della famiglia, come faremmo tutti... Poi tirare la corda...
+29	47	Pensavo che tutti facciano del loro meglio, ma il vero problema è che ognuno vede le cose a modo suo, secondo la propria visione...
+29	48	Tirare la corda
+29	51	Scrivere che sembra perseguire i propri obiettivi... proprio come tutti gli altri... Poi tirare la corda...
+29	53	Scrivere che nessuno può sapere con certezza cosa pensasse e che sei solo felice che sia finita... Poi tirare la corda...
+29	58	Vedo il Goman. Scusa ancora per il disturbo... Quindi non hai trovato niente di... insolito?
+29	59	Scrivere che non dovrebbe avere problemi, visto che l'hai riparato... Poi aggiungere altro...
+29	61	Non è faticoso venire ogni giorno al negozio, aspettare e poi tornare a casa? Tirare la corda...
+29	62	Oh... Scusa, mi dispiace se ti creo problemi... È solo che ora ho paura a stare lontana da te...
+29	63	Scrivere che non ci sono problemi e che, anche così, l'azienda è messa meglio... Poi tirare la corda.
+29	65	Scrivere che al mondo ci sono tante cose strane, ma questo Goman non è una di quelle... Poi aggiungere altro...
+29	67	Scrivere che è impossibile sapere cosa sia successo... Poi aggiungere altro...
+29	70	Mi dispiace tantissimo! Non so che fare... Ti ricordi il Goman che mi hai dato quando mi sono trasferita? Non funziona...
+29	71	So per certo di non averlo rotto! Te lo giuro! È successo qualcosa di strano...
+29	72	A volte le canzoni della mia playlist cambiavano mentre ascoltavo. Poi si sentivano rumori strani... E adesso non riproduce più musica...
+29	73	So che probabilmente è solo un guasto, ma la canzone cambiava da sola in momenti precisi... Non può essere stato un caso!
+29	74	Secondo te... Potrebbe avere un virus? O un trojan? Mi hanno trovata?! ...O forse è solo rotto. Scusa, so che è una domanda stupida, ma... non riesco a smettere di pensarci...
+29	76	Scrivere che va tutto bene, darai un'occhiata al Goman e penserai alla sua domanda
+30	4	Com'è potuto succedere? Tutto quello che dicevano di te, che sei coinvolto nel centro commerciale... È vero?
+30	7	Scrivere che probabilmente il caos sarebbe scoppiato comunque, che gli eventi erano iniziati prima e che ora sei qui per fare ciò che va fatto... Poi tirare la corda.
+30	8	Se... Se la situazione è così grave, tu devi... Potevi dircelo prima, spiegare tutto... Tutto quello che è successo... Perché non hai parlato?
+30	11	Scrivere che non sapevi come spiegare la situazione senza mettere a rischio qualcuno e che una persona ne ha già pagato le conseguenze... Poi tirare la corda.
+30	15	Scrivere che era rischioso e che persino le cose dette mettevano tutti in pericolo. Una persona ne ha già pagato le conseguenze... Poi tirare la corda.
+30	18	Maestro... Scusa, ma... Questo orologio è rotto. Lo riconosco: era del maestro precedente... Com'è possibile...
+30	19	Lo portava sempre con sé... Lo so per certo... Siamo stati vicini di casa per tanto tempo... Come hai fatto ad averlo? Le voci sono vere? Tu... Hai fatto qualcosa al vecchio maestro?
+30	22	Scrivere che è vero e non c'era altra scelta: il vecchio maestro è dovuto sparire perché si era fatto dei nemici... Poi tirare la corda.
+30	23	Com'è potuto succedere? Tutto quello che dicevano di te, che sei coinvolto nel centro commerciale... È vero?
+30	26	Scrivere che Takumi non conosce la verità, ma la sua reazione è comprensibile: il vecchio maestro era suo amico e Hashimoto non c'entra... Poi tirare la corda.
+30	27	Tutti volevano bene al vecchio maestro... Era sempre disponibile e non si lamentava mai... anche se avrebbe potuto... Per favore, ripara il suo orologio in sua memoria. Devo riflettere... Scusa, credo che resterò qui un po' invece di tornare da te...
+30	33	Scrivere che è vero, ma è difficile da spiegare adesso e conviene aspettare che le cose si sistemino... Poi tirare la corda.
+30	35	Scrivere che è vero, ma difficile da spiegare. Aggiungere che il vecchio maestro e sua moglie si sono trovati in una situazione molto complicata... È andata come doveva andare... Poi tirare la corda.
+30	39	Scrivere che Takumi non conosce e non deve conoscere la verità. C'è un piano importante, ma non devi rivelare i dettagli a nessuno... Poi tirare la corda.
+30	40	Scrivere che Takumi non conosce la verità e che ormai non importa. Ci aspettano problemi più grandi e dovete collaborare per evitarli... Poi tirare la corda.
+30	44	Scrivere che il caos sarebbe scoppiato comunque, che gli eventi erano iniziati prima e che sei qui per gestire la situazione sul posto... Poi tirare la corda.
+30	45	Scrivere che probabilmente il caos sarebbe scoppiato comunque, che gli eventi erano iniziati prima e che ora sei qui per fare ciò che va fatto... Poi tirare la corda.
+30	50	Scusa se non ho risposto subito... Dovevo pensarci, ma ora forse non c'è tempo. Non so se te ne sei accorto dal nostro tranquillo angolo di Akiba, ma sulla strada principale...
+30	51	La gente protesta... Il tuo concorrente parla di te e di Hashimoto... istiga tutti... Si sparge la voce che di notte entrino nelle case di chi è con Hashimoto... La polizia non fa entrare i turisti nel quartiere e dice di starne alla larga...
+30	52	Hai detto di sapere cosa succede. Devi avere qualcosa... informazioni, dati, anche solo quello che mi hai raccontato... Ho paura... E se prendessero di mira il negozio? Che facciamo?
+30	53	Scrivere che va tutto come previsto e che è meglio non fare niente... Poi tirare la corda.
+30	54	Va bene, mi fido. Spero che si risolva tutto! Sai davvero il fatto tuo! ^_^ 
+30	55	Sei sicuro che sia una buona idea? C'è un enorme dispiegamento di polizia e l'atmosfera è tesissima... Non temi che qualcuno si faccia male? Cioè, se hanno altre informazioni?
+30	56	Sinceramente, maestro, non gli credo. Lo tengo d'occhio da tempo, so cosa combina. Sì, mantiene l'ordine... ma a quale prezzo? Ora qualcuno potrebbe farsi male... Però tu sai sicuramente cosa fare, maestro.
+30	58	Scrivere che è possibile e forse conviene aspettare e vedere come va... Poi tirare la corda
+30	59	Scrivere che qui rappresentano il potere e l'ordine, quindi è meglio scendere a patti con loro... Poi tirare la corda.
+30	60	Scrivere che se qualcuno può ristabilire l'ordine è Hashimoto con i suoi... Poi tirare la corda.
+30	63	Scrivere che la situazione potrebbe essere più fuori controllo del previsto e che forse dovremmo...
+30	64	Chiamare Sakamoto e rivolgerci alla polizia tramite lui? Poi tirare la corda.
+30	65	Contattare Hashimoto? Poi tirare la corda.
+30	66	Aspettare il momento giusto... Poi tirare la corda.
+31	2	Scusa il disturbo, ma non hai paura? Ora sei proprio come il vecchio maestro! E io posso abitare di nuovo qui sopra di te! Grazie!
+31	3	Il concerto è stato fantastico! Ed è tutto merito tuo. So che hai rinunciato al negozio per aiutare la nostra strada! Hai salvato casa mia!
+31	5	So che non è molto, ma sono riuscita a comprare alcune delle tue cose al mercatino delle pulci.
+31	6	Sei una vera ispirazione! Ora vedo che il mondo è pieno di brave persone e sto pensando di viaggiare! ...Da lunedì, quando avrò trovato il coraggio! =^_^=
+31	7	Disegnare un Pac-Man felice e tirare la corda
+32	2	Perdonate l'intrusione, ma porto buone notizie! A dire il vero è tutto così inaspettato... Ricordate quell'ospite straniero venuto qui di recente? A quanto pare è un mio amico! Un amico di internet, ovviamente. È un famoso sviluppatore di videogiochi!
+32	3	Ho anche scritto un paio di recensioni e guide per i suoi giochi: è così che ci siamo conosciuti online! Tra l'altro è una serie intera! Gli sono piaciuti i miei testi, ha lasciato qualche commento, poi siamo passati ai messaggi privati e continuiamo a sentirci da anni!
+32	4	Senta, maestro, vorrei chiederle un favore. Mi ha detto che il dispositivo che ha sul tavolo non è un semplice giocattolo, ma un prototipo unico! Vuole avviare la produzione di massa e la fabbrica Patento sembra perfetta!
+32	5	Lo sto aiutando come posso. Ho una vasta rete di amici conosciuti sui forum di tecnologia: alcuni sono esperti tecnici, altri hanno contatti nelle fabbriche, altri ancora sanno trovare le persone e le cose giuste al momento giusto... Mi ha perfino dato accesso completo alla documentazione e ai progetti.
+32	6	Mi ha anche detto che forse ha rotto qualcosa mentre smontava il dispositivo, così ho ordinato in anticipo dei ricambi su misura. Li hanno realizzati seguendo i progetti, quindi dovrebbero funzionare. Dia un'occhiata.
+32	7	Per qualche motivo voglio davvero che riesca nel suo intento. Grazie per aver riparato il suo prototipo, maestro. Sono certo che cambierà il mondo in meglio! =^_^=
+34	4	Ciao! Sono qui per il Pokia. È pronto? Oh, fantastico! La mia capa è un mostro, è andata su tutte le furie! Ai suoi occhi non ne faccio mai una giusta! Almeno potrò vendere questo Pokia a un buon prezzo.
+34	5	Ah, quasi dimenticavo. Ti ho portato una cosa! Guarda! Sono pezzi di ogni genere di dispositivo. Prendili come ringraziamento, in aggiunta al pagamento...
+34	7	Il mio sogno è partecipare alla gara dei maestri riparatori! Nel tempo libero, dopo il lavoro e la scuola, smonto tutti i gadget che trovo per esercitarmi. E avanzano sempre dei pezzi... Un sacco di pezzi!
+34	8	Ogni mattina portavo scatole così al vecchio maestro. Mi pagava 2.000 ¥ a settimana. Ops, volevo dire 4.000... Posso portarne anche a te.
+34	9	Dire che accetti
+34	11	Ah, un'altra cosa: pensi di provare a partecipare alla gara dei maestri riparatori? Chi vince finisce per avere un sacco di clienti! E allora... Be', potrei venderti i miei dispositivi...
+34	12	Dire che non sai come iscriversi
+34	13	Chiedi a Hashimoto. Ecco cosa farò: se vinci la gara, ti porterò pezzi gratis, se mi prometti di insegnarmi il mestiere! Buona fortuna, devo scappare!
+34	16	Dire che non pensi di averne bisogno
+34	18	Ciao, maestro. Uffa, sono a pezzi! Al café c'era un turista che urlava «KAWAII!» e «SUGOI!» a tutte le cameriere, chiedendo il loro numero e facendo impazzire tutti.
+34	19	Gli ho dato il numero di una pizzeria. Ora che ci penso, il corriere Yamato sembra così tranquillo e gentile al confronto.
+34	20	Puoi riparare questo Pokia? Io... «per puro caso» ci ho rovesciato sopra della birra quando è caduto a terra. Due volte...
+34	21	Ho già trovato qualcuno che lo compra! Grazie, maestro! Ora devo scappare!
+35	4	Ah! Grazie per averlo riparato, maestro! Meno male che non ho dovuto annullare l'affare; qualche soldo in più oltre alla paghetta farà comodo!
+35	5	A proposito, ti hanno già ammesso alla gara dei maestri riparatori? Il nostro accordo è ancora valido, sai! Io... no. A tutti e due farebbero comodo nuovi clienti, no?
+35	6	Ieri ero a casa a esercitarmi a saldare su una scheda nuova che... ehm, avevo trovato. Poi è successa una cosa stranissima: le luci hanno iniziato a sfarfallare e a un certo punto si sono spente del tutto! Pensavo di aver fatto qualcosa io, ma succede in tutta Akiba!
+35	7	E poi quel poliziotto ha iniziato a passare al café di continuo! Crede che non lo riconosca in borghese. Se ne sta lì a sorseggiare caffè per ore... Ha con sé il Goman, probabilmente registra le conversazioni: perché sarebbe lì, altrimenti? Mi mette ansia!
+35	11	Ciao, maestro! Ho un problemino. Credo che la scheda di rete sia bruciata. Qualcuno ha provato a cambiare il chip di rete per nascondere l'indirizzo MAC... ma l'ha saldato male.
+35	12	Quella persona non aveva proprio idea di come si usa un saldatore... Tu ne hai uno, vero? Conto su di te, maestro! Puoi aiutarmi?

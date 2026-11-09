@@ -13,6 +13,14 @@ New-Item -ItemType Directory -Force -Path (Split-Path $output) | Out-Null
 if ($LASTEXITCODE -ne 0) { throw 'Test compilation failed.' }
 & $output
 if ($LASTEXITCODE -ne 0) { throw 'Installer tests failed.' }
+powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'tests\CreditOverlayTests.ps1')
+if ($LASTEXITCODE -ne 0) { throw 'Credit overlay tests failed.' }
+powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'tests\DialogueLocalization.Tests.ps1')
+if ($LASTEXITCODE -ne 0) { throw 'Dialogue localization tests failed.' }
+powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'tests\DialogueSourceExport.Tests.ps1')
+if ($LASTEXITCODE -ne 0) { throw 'Dialogue source export tests failed.' }
+powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'tests\DialogueProbeExport.Tests.ps1')
+if ($LASTEXITCODE -ne 0) { throw 'Dialogue identity probe tests failed.' }
 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'build.ps1')
 if ($LASTEXITCODE -ne 0) { throw 'CLI build failed.' }
 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'tests\CliSmoke.ps1')
