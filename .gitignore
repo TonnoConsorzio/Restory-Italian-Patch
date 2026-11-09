@@ -1,0 +1,7 @@
+# Temporary extraction, downloaded loaders, disposable game copies, and build outputs.
+/work/
+/dist/
+/game-copy/
+*.user
+*.suo
+*.log
