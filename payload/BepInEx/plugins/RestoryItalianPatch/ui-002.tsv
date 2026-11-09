@@ -1,0 +1,640 @@
+# UI translation shard 002
+ELEMENT_POKIA_NJOY_MAIN_NAME	Scocca
+ELEMENT_POKIA_NJOY_METALPLATE_NAME	Schermo UV
+ELEMENT_POKIA_NJOY_MICRO_NAME	Microfono
+ELEMENT_POKIA_NJOY_MOTOR_NAME	Motore di vibrazione
+ELEMENT_POKIA_NJOY_PLATE_NAME	Circuito stampato
+ELEMENT_POKIA_N_JOY_BUTTERY_NAME	Batteria
+ELEMENT_PSP_1000_BATTERY_LID_NAME	Coperchio della batteria
+ELEMENT_PSP_1000_BATTERY_NAME	Batteria
+ELEMENT_PSP_1000_BOT_FRAME_NAME	Telaio
+ELEMENT_PSP_1000_BUTTONS_BOARD_NAME	Scheda di controllo
+ELEMENT_PSP_1000_CD_LID_NAME	Coperchio del lettore
+ELEMENT_PSP_1000_CD_NAME	Lettore di dischi
+ELEMENT_PSP_1000_DISKETTE_NAME	Disco
+ELEMENT_PSP_1000_DISPLAY_NAME	Schermo
+ELEMENT_PSP_1000_METAL_FRAME_01_NAME	Cornice del display
+ELEMENT_PSP_1000_METAL_FRAME_02_NAME	Telaio metallico
+ELEMENT_PSP_1000_MOTHERBOARD_NAME	Scheda madre
+ELEMENT_PSP_1000_SCREW_NAME	Vite
+ELEMENT_PSP_1000_TOP_FRAME_NAME	Pannello frontale
+ELEMENT_PSP_1000_WIFI_BOARD_NAME	Scheda Wi-Fi
+ELEMENT_ROBBY_BATTERY_01_NAME	Batteria
+ELEMENT_ROBBY_BATTERY_CAP_NAME	Coperchio del vano batteria
+ELEMENT_ROBBY_BOARD_NAME	Circuito stampato
+ELEMENT_ROBBY_BODY_BOTTOM_PART_NAME	Pannello posteriore della scocca
+ELEMENT_ROBBY_BODY_UPPER_PART_NAME	Pannello anteriore della scocca
+ELEMENT_ROBBY_EARS_MOTOR_NAME	Motore dell’orecchio
+ELEMENT_ROBBY_EAR_LEFT_NAME	Orecchio
+ELEMENT_ROBBY_HEAD_PART_LEFT_NAME	Pannello sinistro della testa
+ELEMENT_ROBBY_HEAD_PART_RIGHT_NAME	Pannello destro della testa
+ELEMENT_ROBBY_LED_DISPLAY_NAME	Schermo LED
+ELEMENT_ROBBY_LED_SCREEN_NAME	Schermo
+ELEMENT_ROBBY_LEGS_BACK_LEFT_NAME	Zampa posteriore sinistra
+ELEMENT_ROBBY_LEGS_BACK_RIGHT_NAME	Zampa posteriore destra
+ELEMENT_ROBBY_LEGS_FRONT_LEFT_NAME	Zampa anteriore sinistra
+ELEMENT_ROBBY_LEGS_FRONT_RIGHT_NAME	Zampa anteriore destra
+ELEMENT_ROBBY_MOTOR_NAME	Motore
+ELEMENT_ROBBY_SENSORS_NAME	Sensori
+ELEMENT_ROBBY_SHAFT_CAP_NAME	Copertura dell’albero
+ELEMENT_ROBBY_SHAFT_NAME	Albero
+ELEMENT_ROBBY_SPEAKER_NAME	Altoparlante
+ELEMENT_ROBBY_TAIL_NAME	Coda
+ELEMENT_SEAMENS_M65_BACK_FRAME_NAME	Pannello posteriore
+ELEMENT_SEAMENS_M65_BUTTERY_COVER_NAME	Coperchio della batteria
+ELEMENT_SEAMENS_M65_BUTTERY_NAME	Batteria
+ELEMENT_SEAMENS_M65_CAMERA_FRAME_NAME	Cornice della fotocamera
+ELEMENT_SEAMENS_M65_CAMERA_NAME	Fotocamera
+ELEMENT_SEAMENS_M65_FRAME_NAME	Paraurti
+ELEMENT_SEAMENS_M65_FRONT_FRAME_NAME	Pannello frontale
+ELEMENT_SEAMENS_M65_INSIDE_FRAME_NAME	Telaio metallico
+ELEMENT_SEAMENS_M65_KEYBOARD_BOARD_NAME	Circuito stampato della tastiera
+ELEMENT_SEAMENS_M65_KEYBOARD_NAME	Tastiera
+ELEMENT_SEAMENS_M65_MAIN_BOARD_NAME	Circuito stampato
+ELEMENT_SEAMENS_M65_NAVIGATION_STICK_NAME	Levetta di navigazione
+ELEMENT_SEAMENS_M65_RUBBER_FRAME_NAME	Telaio
+ELEMENT_SEAMENS_M65_SCREEN_NAME	Schermo
+ELEMENT_STEAMDECK_BACKPANEL_NAME	Pannello posteriore
+ELEMENT_STEAMDECK_BATTERY_PW_NAME	Batteria
+ELEMENT_STEAMDECK_CASE_PW_NAME	Scocca
+ELEMENT_STEAMDECK_CONTROLPLATE_L_PW_NAME	Scheda tasti sinistra
+ELEMENT_STEAMDECK_CONTROLPLATE_R_PW_NAME	Scheda tasti destra
+ELEMENT_STEAMDECK_DYNAMICS_NAME	Altoparlante
+ELEMENT_STEAMDECK_FAN_PW_NAME	Ventola
+ELEMENT_STEAMDECK_FRAME_NAME	Scudo esterno
+ELEMENT_STEAMDECK_HEATSINK_NAME	Dissipatore
+ELEMENT_STEAMDECK_MAINPLATE_PW_NAME	Scheda madre
+ELEMENT_STEAMDECK_MIDRAME_PW_NAME	Telaio
+ELEMENT_STEAMDECK_SCREEN_PW_NAME	Schermo
+ELEMENT_STEAMDECK_SSD_NAME	Unità SSD
+ELEMENT_STEAMDECK_STICK_L_NAME	Joystick sinistro
+ELEMENT_STEAMDECK_STICK_R_NAME	Joystick destro
+ELEMENT_STEAMDECK_TOUCHPAD_L_PW_NAME	Trackpad sinistro
+ELEMENT_STEAMDECK_TOUCHPAD_R_PW_NAME	Trackpad destro
+ELEMENT_STEAMDECK_TRIGGER_L_NAME	Grilletto sinistro
+ELEMENT_STEAMDECK_TRIGGER_R_NAME	Grilletto destro
+ELEMENT_UNICORP_VISION_ANTENNA_CHIP_NAME	Chip dell’antenna
+ELEMENT_UNICORP_VISION_ANTENNA_NAME	Antenna
+ELEMENT_UNICORP_VISION_BACK_CAP_NAME	Pannello posteriore
+ELEMENT_UNICORP_VISION_BASE_NAME	Scocca
+ELEMENT_UNICORP_VISION_DYNAMIC_NAME	Altoparlante
+ELEMENT_UNICORP_VISION_GRAPHIC_CHIP_NAME	Chip grafico
+ELEMENT_UNICORP_VISION_KINESCOPE_NAME	Tubo della fotocamera
+ELEMENT_UNICORP_VISION_MICROCHIP_NAME	Processore
+ELEMENT_UNICORP_VISION_RIGHT_CAP_NAME	Copertura laterale
+ELEMENT_UNICORP_VISION_RIGHT_PART_NAME	Pannello interno
+ELEMENT_UNICORP_VISION_WIRE_01_NAME	Cavo dell’altoparlante
+ELEMENT_UNICORP_VISION_WIRE_02_NAME	Cavo del tubo della fotocamera
+ELEMENT_WALKIETALKIE_AUTOROLA_ANTENNA_NAME	Antenna
+ELEMENT_WALKIETALKIE_AUTOROLA_AUDIOCOVER_NAME	Copertura del jack audio
+ELEMENT_WALKIETALKIE_AUTOROLA_BATTERY_NAME	Batteria
+ELEMENT_WALKIETALKIE_AUTOROLA_CIRCUIBOARD_NAME	Circuito stampato
+ELEMENT_WALKIETALKIE_AUTOROLA_FRAME_NAME	Telaio
+ELEMENT_WALKIETALKIE_AUTOROLA_HANDLES_1_NAME	Manopola della frequenza
+ELEMENT_WALKIETALKIE_AUTOROLA_HANDLES_2_NAME	Manopola del volume
+ELEMENT_WALKIETALKIE_AUTOROLA_UPPERCASE_NAME	Scocca
+ELEMENT_WALKIETALKIE_AUTOROLA_WIREDSPEAKER_PW_NAME	Altoparlante
+ELEMENT_WERTU_BACK_PANEL	Pannello posteriore
+ELEMENT_WERTU_BATTERY	Batteria
+ELEMENT_WERTU_BATTERY_LID	Coperchio della batteria
+ELEMENT_WERTU_BOARD	Circuito stampato
+ELEMENT_WERTU_BOTTOM_PANEL	Pannello inferiore
+ELEMENT_WERTU_CASING	Scocca
+ELEMENT_WERTU_DYNAMIC_COVER	Copertura dell’altoparlante
+ELEMENT_WERTU_KEYBOARD	Tastiera
+ELEMENT_WERTU_LEFT_PANEL	Pannello sinistro
+ELEMENT_WERTU_RIGHT_PANEL	Pannello destro
+ELEMENT_WERTU_SCREEN	Schermo
+ELEMENT_WERTU_SIM_TRAY	Vassoio SIM
+ELEMENT_WERTU_TRAY_HOLDER	Supporto del vassoio
+ELEMENT_XI-BOX_BOTTOMCASE_NAME	Pannello posteriore
+ELEMENT_XI-BOX_CONNECTOR_L_PW_NAME	Porte sinistre
+ELEMENT_XI-BOX_CONNECTOR_R_PW_NAME	Porte destre
+ELEMENT_XI-BOX_CORD_NAME	Cavo a nastro
+ELEMENT_XI-BOX_DUKE_CABEL_NAME	Cavo
+ELEMENT_XI-BOX_DUKE_CROSS_NAME	Tasti direzionali
+ELEMENT_XI-BOX_DUKE_PLATE_NAME	Circuito stampato
+ELEMENT_XI-BOX_DUKE_STICKS_LEFT_NAME	Joystick sinistro
+ELEMENT_XI-BOX_DUKE_STICK_RIGHT_NAME	Joystick destro
+ELEMENT_XI-BOX_DUKE_TRIGGER_LEFT_NAME	Grilletto sinistro
+ELEMENT_XI-BOX_DUKE_TRIGGER_RIGHT_NAME	Grilletto destro
+ELEMENT_XI-BOX_DVDCABLE_NAME	Cavo DVD
+ELEMENT_XI-BOX_DVD_NAME	Lettore DVD
+ELEMENT_XI-BOX_FAN_PW_NAME	Ventola
+ELEMENT_XI-BOX_FRONTPANEL_PW_NAME	Pannello frontale
+ELEMENT_XI-BOX_HDDCABLE_NAME	Cavo del disco rigido
+ELEMENT_XI-BOX_HDD_NAME	Disco rigido
+ELEMENT_XI-BOX_MOTHERBOARDCABLE_NAME	Cavo della scheda madre
+ELEMENT_XI-BOX_MOTHERBOARD_NAME	Scheda madre
+ELEMENT_XI-BOX_POWERUNIT_NAME	Alimentatore
+ELEMENT_XI-BOX_TOPCASE_NAME	Pannello frontale
+ELEMENT_XIBOX_DUKE_BACKPANEL_PW_NAME	Pannello posteriore
+ELEMENT_XIBOX_DUKE_BUTTONSCENTRAL_NAME	Tasti menu
+ELEMENT_XIBOX_DUKE_BUTTONS_NAME	Tasti azione
+ELEMENT_XIBOX_DUKE_FRONTPANEL_NAME	Pannello frontale
+ELEMENT_XIBOX_DUKE_MEMORYSLOT_NAME	Slot di memoria
+EMAIL_NAME_1	Takahiro Suzuki
+EMAIL_NAME_10	Takumi Nishida
+EMAIL_NAME_100	Hiro Arai
+EMAIL_NAME_11	Miyu Arai
+EMAIL_NAME_12	Kenji Asano
+EMAIL_NAME_13	Riko Fujita
+EMAIL_NAME_14	Shun Hasegawa
+EMAIL_NAME_15	Kenta Saito
+EMAIL_NAME_16	Nobuhiko Endo
+EMAIL_NAME_17	Tetsuya Yamamoto
+EMAIL_NAME_18	Haruka Kinoshita
+EMAIL_NAME_19	Ryosuke Honda
+EMAIL_NAME_2	Akiko Yamada
+EMAIL_NAME_20	Daichi Murakami
+EMAIL_NAME_21	Rina Kobori
+EMAIL_NAME_22	Sho Takada
+EMAIL_NAME_23	Eri Honda
+EMAIL_NAME_24	Tatsuya Morita
+EMAIL_NAME_25	Megumi Kubo
+EMAIL_NAME_26	Kazuya Yamane
+EMAIL_NAME_27	Rena Ito
+EMAIL_NAME_28	Shinpei Yoshino
+EMAIL_NAME_29	Yuuki Nakagawa
+EMAIL_NAME_3	Daiki Kato
+EMAIL_NAME_30	Chiaki Mori
+EMAIL_NAME_31	Daichi Renda
+EMAIL_NAME_32	Tomoko Nishimura
+EMAIL_NAME_33	Kazunori Honda
+EMAIL_NAME_34	Yumi Kanda
+EMAIL_NAME_35	Shigeru Nomura
+EMAIL_NAME_36	Aya Hirano
+EMAIL_NAME_37	Kenta Inoue
+EMAIL_NAME_38	Nao Kurata
+EMAIL_NAME_39	Hideki Matsuno
+EMAIL_NAME_4	Ken Matsui
+EMAIL_NAME_40	Yui Okazaki
+EMAIL_NAME_41	Satoshi Oda
+EMAIL_NAME_42	Maiko Ishida
+EMAIL_NAME_43	Naoto Honda
+EMAIL_NAME_44	Kazumi Taniguchi
+EMAIL_NAME_45	Hideo Fujii
+EMAIL_NAME_46	Yumi Ogura
+EMAIL_NAME_47	Ken Nakano
+EMAIL_NAME_48	Misa Tsuboi
+EMAIL_NAME_49	Noboru Ishikawa
+EMAIL_NAME_5	Yui Tanaka
+EMAIL_NAME_50	Rinako Hayama
+EMAIL_NAME_51	Yoshihiro Takemura
+EMAIL_NAME_52	Daisuke Aoki
+EMAIL_NAME_53	Akari Endo
+EMAIL_NAME_54	Haruto Gonda
+EMAIL_NAME_55	Eri Nagano
+EMAIL_NAME_56	Hideo Yamada
+EMAIL_NAME_57	Aya Takasugi
+EMAIL_NAME_58	Takuya Sano
+EMAIL_NAME_59	Kaoru Tanimura
+EMAIL_NAME_6	Jun Kobayashi
+EMAIL_NAME_60	Misa Ishimaru
+EMAIL_NAME_61	Takeshi Nakata
+EMAIL_NAME_62	Mariko Fujimoto
+EMAIL_NAME_63	Junpei Morioka
+EMAIL_NAME_64	Rei Yamashita
+EMAIL_NAME_65	Satoru Kamei
+EMAIL_NAME_66	Makoto Zaizen
+EMAIL_NAME_67	Hiroshi Morikawa
+EMAIL_NAME_68	Chieko Tsuda
+EMAIL_NAME_69	Shingo Yamagata
+EMAIL_NAME_7	Akane Yamaguchi
+EMAIL_NAME_70	Yumi Arakawa
+EMAIL_NAME_71	Ken Uchida
+EMAIL_NAME_72	Manami Nishio
+EMAIL_NAME_73	Masaru Fukui
+EMAIL_NAME_74	Sayaka Ogino
+EMAIL_NAME_75	Ryoji Takahata
+EMAIL_NAME_76	Hitomi Chinen
+EMAIL_NAME_77	Akito Kuroda
+EMAIL_NAME_78	Naomi Aizawa
+EMAIL_NAME_79	Ryo Takahashi
+EMAIL_NAME_8	Hiroshi Sakai
+EMAIL_NAME_80	Tomoya Kaneko
+EMAIL_NAME_81	Yuka Miura
+EMAIL_NAME_82	Kazuko Shibata
+EMAIL_NAME_83	Genki Okada
+EMAIL_NAME_84	Emiko Yoshikawa
+EMAIL_NAME_85	Shunpei Tamura
+EMAIL_NAME_86	Nao Matsuda
+EMAIL_NAME_87	Taichi Morita
+EMAIL_NAME_88	Mari Hoshino
+EMAIL_NAME_89	Junko Onishi
+EMAIL_NAME_9	Miwa Saito
+EMAIL_NAME_90	Hiroshi Fujimoto
+EMAIL_NAME_91	Akira Ohnishi
+EMAIL_NAME_92	Rina Kudo
+EMAIL_NAME_93	Kenzo Yamabe
+EMAIL_NAME_94	Megumi Toba
+EMAIL_NAME_95	Shohei Yanagi
+EMAIL_NAME_96	Kana Matsui
+EMAIL_NAME_97	Tomo Hayashi
+EMAIL_NAME_98	Naoto Kikuchi
+EMAIL_NAME_99	Rei Murata
+Email_Comment_1	Conto su di te. Dopo il viaggio non funziona più come dovrebbe.
+Email_Comment_10	Dai un’occhiata all’interno, per favore. Ha iniziato a fare un rumore terribile.
+Email_Comment_100	Controlla proprio tutto, per favore.
+Email_Comment_11	Ieri funzionava. Oggi no.
+Email_Comment_12	Non si accende. Puoi controllarlo?
+Email_Comment_13	Ho bisogno del tuo aiuto. Si riavvia troppo spesso.
+Email_Comment_14	Fa cose strane. Ha bisogno di una revisione.
+Email_Comment_15	Potrebbe essersi sporcato. Lavoravo in magazzino.
+Email_Comment_16	Puoi controllarlo? L’ho trovato dopo il trasloco nella casa nuova.
+Email_Comment_17	Puoi controllarlo? Sento odore di plastica o è solo una mia impressione?
+Email_Comment_18	Si è bloccato all’improvviso. Si è spento senza motivo.
+Email_Comment_19	Ha smesso di rispondere dopo una gita in campagna.
+Email_Comment_2	È un regalo, quindi trattalo con cura. È per una persona a cui tengo.
+Email_Comment_20	Non risponde. Non so perché: è rimasto inutilizzato per una settimana.
+Email_Comment_21	Spero tu riesca a sistemarlo. Per me è importante.
+Email_Comment_22	Vedi se si può fare. È tutto collegato correttamente.
+Email_Comment_23	Fallo funzionare di nuovo, per favore. Mi serve urgentemente per lavoro.
+Email_Comment_24	L’ho controllato da solo, senza successo. Sembra che non si colleghi.
+Email_Comment_25	Non so da dove cominciare. È caduto dal tavolo.
+Email_Comment_26	Senti questo ronzio? È iniziato da poco.
+Email_Comment_27	Potrebbe esserci della polvere dentro. L’ho tenuto in una scatola.
+Email_Comment_28	Trattalo con cura, per favore. La superficie è leggermente graffiata.
+Email_Comment_29	Non riesco ad accenderlo. Si illumina, ma non parte.
+Email_Comment_3	Non so se funzionerà, ma ti prego, prova.
+Email_Comment_30	All’inizio andava tutto bene. Poi si è bloccato di colpo.
+Email_Comment_31	Ha smesso di rispondere dopo una notte di pioggia.
+Email_Comment_32	Sembra esserci un contatto allentato. A volte lo schermo lampeggia.
+Email_Comment_33	Fai attenzione quando lo controlli. La scocca è sottile e si rompe facilmente.
+Email_Comment_34	Procedi con calma e precisione. L’importante è non danneggiarlo.
+Email_Comment_35	Spero davvero che si possa riparare. Lo uso ogni giorno.
+Email_Comment_36	A guardarlo sembra a posto, ma non funziona.
+Email_Comment_37	Ha smesso di rispondere e basta.
+Email_Comment_38	A volte si accende, altre no. Soprattutto la mattina.
+Email_Comment_39	C’è uno strano odore, forse di polvere. Era riposto da molto tempo.
+Email_Comment_4	Mi hanno detto che sei bravo con queste cose. Me l’ha consigliato un collega.
+Email_Comment_40	Aiutami a capire cosa non va. Devo rimetterlo in funzione.
+Email_Comment_41	Non dà segni di vita.
+Email_Comment_42	Controlla l’alimentazione, per favore.
+Email_Comment_43	Dagli un’occhiata, se non ti disturba.
+Email_Comment_44	Funziona a intermittenza. Puoi aiutarmi?
+Email_Comment_45	Provalo a fondo, per favore. A volte fa rumori strani.
+Email_Comment_46	Ho controllato tutto, ma non è servito a niente.
+Email_Comment_47	Potrebbe essere solo ossidazione dovuta all’umidità.
+Email_Comment_48	A volte scatta e si spegne, soprattutto appena acceso.
+Email_Comment_49	Fai molta attenzione, la scocca è fragile.
+Email_Comment_5	Se puoi, riparalo, per favore.
+Email_Comment_50	Rimettilo a posto, per favore. Non lo tocco da una settimana.
+Email_Comment_51	Controlla i collegamenti. Sembra essersi allentato qualcosa durante la spedizione.
+Email_Comment_52	Mi serve subito! Aiuto!
+Email_Comment_53	Qualcosa gli impedisce di funzionare, ma non so cosa. Va se lo premi piano.
+Email_Comment_54	Potrebbe essersi surriscaldato. Era vicino alla finestra.
+Email_Comment_55	Fai pure quello che ritieni necessario, basta che torni a funzionare.
+Email_Comment_56	Va controllato. Non l’ho mai aperto.
+Email_Comment_57	Non c’è segnale, puoi controllarlo?
+Email_Comment_58	Te l’ho portato perché non riuscivo a ripararlo da solo. Ho già provato di tutto.
+Email_Comment_59	A volte si accende per un secondo e poi si spegne di nuovo.
+Email_Comment_6	Qualcosa è andato storto. Puoi darci un’occhiata?
+Email_Comment_60	Per favore, non danneggiare la scocca.
+Email_Comment_61	Forse basta pulirlo.
+Email_Comment_62	Spero non sia niente di grave. L’ho appena comprato.
+Email_Comment_63	Non funziona, e l’ho già controllato più volte.
+Email_Comment_64	Aiutami a capire cosa non va. Non ci capisco proprio.
+Email_Comment_65	Funzionava, poi si è spento senza preavviso.
+Email_Comment_66	Si è bloccato proprio davanti a me.
+Email_Comment_67	Puoi controllarlo, per favore?
+Email_Comment_68	Non risponde a niente.
+Email_Comment_69	Sembra esserci un corto: ho sentito uno crepitio.
+Email_Comment_7	Non funziona proprio. Aiutami a capire.
+Email_Comment_70	Prima ha fatto un rumore, poi è calato il silenzio.
+Email_Comment_71	Dagli un’occhiata, se puoi. Per me ha un grande valore.
+Email_Comment_72	Dagli un’occhiata in fretta. Devo portarlo in viaggio di lavoro.
+Email_Comment_73	Funziona solo ogni tanto, senza un motivo apparente.
+Email_Comment_74	Puoi controllarlo? Potrebbe esserci polvere o un contatto allentato. Lo lascio spesso sulla scrivania.
+Email_Comment_75	Non c’è segnale, aiutami per favore.
+Email_Comment_76	Dopo averlo pulito non si riavvia. Ho usato alcol. Tanto alcol.
+Email_Comment_77	Quando premo i tasti non succede nulla.
+Email_Comment_78	Potrebbe essere un problema di alimentazione.
+Email_Comment_79	Qualcosa dentro si sta surriscaldando.
+Email_Comment_8	Fai quello che serve. I tasti non funzionano.
+Email_Comment_80	Si comporta in modo stranissimo. A volte si accende da solo.
+Email_Comment_81	Sembra che ce la metta tutta per funzionare.
+Email_Comment_82	Prima funzionava bene.
+Email_Comment_83	Dagli un’occhiata, se non ti disturba.
+Email_Comment_84	Mi basta che torni a funzionare.
+Email_Comment_85	Forse si è bloccato per sbaglio. Non ho fatto nulla di diverso.
+Email_Comment_86	Fai attenzione quando lo controlli. La scocca è molto rara.
+Email_Comment_87	Ieri funzionava tutto bene.
+Email_Comment_88	Lo accendo e… niente.
+Email_Comment_89	Non c’è segnale. Potrebbe esserci un contatto allentato.
+Email_Comment_9	Va controllato.
+Email_Comment_90	Ha iniziato a fare odore, così l’ho spento. Gli serve solo un controllo veloce.
+Email_Comment_91	Controlla come funziona, per favore.
+Email_Comment_92	Aiuto! Non funziona.
+Email_Comment_93	Me l’ha consigliato un amico.
+Email_Comment_94	Ho sentito uno scatto.
+Email_Comment_95	Non si avvia e non so perché. Ha smesso di colpo.
+Email_Comment_96	Forse si è solo sporcato.
+Email_Comment_97	Ha smesso di rispondere ai comandi.
+Email_Comment_98	Riparalo, per favore. Se possibile, vorrei riaverlo funzionante.
+Email_Comment_99	Ieri funzionava, oggi no.
+Email_Name_AkibaMastersComm	AMC Committee
+Email_Name_AkibaNews	Akiba News
+Email_Name_Baketsu	Bucket
+Email_Name_Haruhi	Haruhi Suzumi
+Email_Name_PartsWarehouse	Akiba Parts Warehouse
+Email_Name_Sararyman	Urikome Shinji
+Email_Name_SecretMail	5053494140474F562E4A50
+Email_Narrative_Body_AkibaMastersComm	Gentile Maestro,\nle scriviamo per informarla che...\n\nLa sua officina ha ottenuto il punteggio più alto all’ultima Gara dei Maestri Riparatori di Akiba!\n\nOra è il Campione delle Riparazioni di Akiba! Congratulazioni!\n\nComitato della gara\nTel./Fax: 03-3251-44223-12
+Email_Narrative_Body_Bucket_Comp	Maestro!\n\nIl vincitore della Gara dei Maestri Riparatori riceve in premio una licenza gratuita per riparare Robby!\n\nInsomma, è uno dei pochi modi per mettere le mani su ricambi a cui nessuno qui ha mai avuto accesso e probabilmente non ne avrà mai. A parte il vecchio maestro, forse... Sto ancora cercando di capire come si faccia a partecipare.\n\nTi dirò se salta fuori qualcosa!\nTanto non abbiamo molta scelta!\nGrazie!
+Email_Narrative_Body_Bucket_Conspiracy1	Ciao, Maestro!\n\nScusa se ti disturbo, ma è importantissimo!\n\nIl mio programma ha rilevato del traffico cifrato in rete. Ti ricordi quando Sakamoto ha parlato di alcuni «ospiti» in arrivo alla fiera? Questo nuovo traffico ha iniziato a circolare proprio al loro arrivo, e in quel periodo tutti i partecipanti alla gara hanno ricevuto anche un nuovo saldatore!\n\nSui forum non si parla d’altro: quei saldatori stanno intasando le reti!\nC’è persino chi sostiene che nascondano un dispositivo di sorveglianza, ma come sarebbe possibile?\nUna cosa però la posso dire: quei saldatori lavorano per gli «ospiti» e ascoltano tutto quello che succede nei negozi!\nNon sono paranoico, giuro!\nScusa ancora per il disturbo.
+Email_Narrative_Body_ElementsRestock	Appena arrivati: un enorme rifornimento di ricambi elettronici di ogni tipo!
+Email_Narrative_Body_HaruhiHelp	Se dovessi cambiare idea su come procurarti i ricambi, rispondimi pure in questa conversazione!\n\nGrazie!
+Email_Narrative_Body_ISP	Gentile cliente! Ottime notizie: può cambiare piano tariffario quando vuole! Purtroppo il piano Smart non è più disponibile. Ci contatti per valutare un’offerta alternativa.\nLe opzioni attuali:\n\nPiano Basic: 128 kb/sec. ¥500 a settimana\nPiano Galactic: 1 MB/sec. ¥1500 a settimana
+Email_Narrative_Body_MarketingCompAccess	Salve,\ncongratulazioni! La sua candidatura alla gara è stata approvata!\nTroverà tutte le informazioni necessarie nella nostra app.\nLe basta cliccare il link per installarla automaticamente!\nIn bocca al lupo!
+Email_Narrative_Body_RaidNews	Innocuo maid café all’apparenza, ritrovo di criminali in realtà: una bisca clandestina scoperta ad Akiba grazie a una segnalazione anonima!\nArrestati diversi personaggi chiave. Continueremo a seguire da vicino la vicenda!
+Email_Narrative_Body_RaidNewsHelped	Innocuo maid café all’apparenza, ritrovo di criminali in realtà: una bisca clandestina scoperta ad Akiba grazie a una segnalazione anonima!\nDiversi personaggi chiave arrestati, mentre alcuni residenti hanno cercato di ostacolare la polizia!\nSenza prove concrete, gran parte degli organizzatori se l’è cavata con una multa...
+Email_Narrative_Body_RatingsApp	Ciao! ^_^\nTi ho appena lasciato una nuova recensione! Ecco l’app per leggerla. Installala e basta!\nIn bocca al lupo per la gara!
+Email_Narrative_Body_Rival_Promo	La nostra azienda ha preparato un’offerta esclusiva e personalizzata per rilevare la sua officina. È il prezzo migliore che possa ottenere, nonché l’ultima occasione per influenzare in qualche modo il progetto! Si sbrighi o perderà questa opportunità!\nI megacentri commerciali sono il futuro del commercio globale!\nOgni clausola è vincolante. Aprendo questa lettera, accetta di non divulgare i dettagli qui contenuti.
+Email_Narrative_Body_SecretMail	Ottimo lavoro con il vecchio maestro. I danni collaterali sono entro limiti accettabili. Considera completato l’obiettivo iniziale della missione. Prendi il suo posto e continua a riparare. Il piano non cambia: realizzeremo il nostro progetto di centro commerciale. Il fine giustifica i mezzi. Prendi posizione e attendi ulteriori istruzioni.
+Email_Narrative_Body_SecretMailCoded	457863656C6C656E7420776F726B207769746820746865206F6C64206D61737465722E20436F6C6C61746572616C2064616D6167652069732077697468696E206C696D6974732E20596F75277665206163636F6D706C69736865642074686520696E697469616C206F626A6563746976652E2054616B652068697320706C61636520616E64207265706169722074686520646576696365732E20446F6E277420646576696174652066726F6D2074686520706C616E2120546865206F626A656374697665206973206A75737469666965642E20596F75276C6C207265636569766520696E737472756374696F6E73206469726563746C79206F6E636520796F752061726520696E20706F736974696F6E2E7763
+Email_Narrative_OK_Decrypt	Decifra
+Email_Narrative_Topic_AkibaMastersComm	E il vincitore sei... tu!
+Email_Narrative_Topic_Bucket_Comp	Aggiornamento sulla gara!
+Email_Narrative_Topic_Bucket_Conspiracy1	Complotto dei saldatori!
+Email_Narrative_Topic_ElementsRestock	Nuovo rifornimento al negozio di ricambi!
+Email_Narrative_Topic_HaruhiHelp	Ricambi per il Maestro!
+Email_Narrative_Topic_HaruhiHelpYes	Accetta
+Email_Narrative_Topic_ISP	Cambio del piano tariffario
+Email_Narrative_Topic_ISP_Fast	Galactic: ¥1500 a settimana
+Email_Narrative_Topic_ISP_Slow	Basic: ¥500 a settimana
+Email_Narrative_Topic_MarketingCompAccess	Avviso di accesso alla gara!
+Email_Narrative_Topic_MarketingCompAccess_Yes	Installa l’app
+Email_Narrative_Topic_RaidNews	Scoperta una bisca clandestina ad Akiba!
+Email_Narrative_Topic_RaidNewsHelped	Scoperta una bisca clandestina ad Akiba!
+Email_Narrative_Topic_RatingsApp	Recensioni di Akiba
+Email_Narrative_Topic_RatingsApp_Ok	Installa l’app
+Email_Narrative_Topic_Rival_Promo	URGENTE: proposta per il nostro stimato partner
+Email_Narrative_Topic_SecretMail	Dati ripristinati
+FLASHLIGHT99_DEVICE_SHOP_LOT_DESCRIPTION_1	Torcia importata! È potentissima, ma sfarfalla un po’. Forse ha un problema alla batteria. Prendila al volo.
+FLASHLIGHT99_DEVICE_SHOP_LOT_DESCRIPTION_10	Torcia importata in edizione limitata. Si scalda in modo strano, ma fa ancora tanta luce. Sbrigati o la tengo io.
+FLASHLIGHT99_DEVICE_SHOP_LOT_DESCRIPTION_2	Torcia usata, pesante e in metallo massiccio. L’interruttore fa i capricci. Oggi mi servono soldi.
+FLASHLIGHT99_DEVICE_SHOP_LOT_DESCRIPTION_3	Torcia rotta. Si accende e poi si spegne. Forse è la batteria. Prezzo basso per chi sa il fatto suo.
+FLASHLIGHT99_DEVICE_SHOP_LOT_DESCRIPTION_4	Torcia importata nuova, ancora nella scatola. Le istruzioni non sono in inglese, LOL. È potente. Niente offerte ridicole, grazie.
+FLASHLIGHT99_DEVICE_SHOP_LOT_DESCRIPTION_5	Torcia importata rara, un «regalo» dall’estero. Fascio molto stretto, qualche graffio. Vieni a prenderla subito.
+FLASHLIGHT99_DEVICE_SHOP_LOT_DESCRIPTION_6	Vecchia torcia importata e rara. La lampadina sembra fare meno luce, ma è ancora robusta. Il prezzo non si tratta, quindi niente lamentele.
+FLASHLIGHT99_DEVICE_SHOP_LOT_DESCRIPTION_7	Importata, usata pochissimo. Senza cinturino. Fa comunque una bella luce. Contattami subito prima che sparisca.
+FLASHLIGHT99_DEVICE_SHOP_LOT_DESCRIPTION_8	Torcia strana, non so nemmeno di che marca sia. Però fa una luce pazzesca. Solo contanti, niente domande, chiaro?
+FLASHLIGHT99_DEVICE_SHOP_LOT_DESCRIPTION_9	Torcia importata trovata in un box. È impolverata ma potente. Chi prima arriva, se la prende.
+FURNITURE_DESC_BIG_SHELF_BACKLIGHT_DARK	Scaffale alto
+FURNITURE_DESC_BIG_SHELF_BACKLIGHT_LIGHT	Scaffale alto
+FURNITURE_DESC_BIG_SHELF_DEFAULT	Scaffale alto
+FURNITURE_DESC_BIG_SHELF_ROUNDED_PINK	Scaffale alto
+FURNITURE_DESC_BIG_SHELF_ROUNDED_RED	Scaffale alto
+FURNITURE_DESC_BIG_SHELF_SQUARES	Scaffale alto
+FURNITURE_DESC_BIG_SHELF_STICKERS_BLUE	Scaffale alto
+FURNITURE_DESC_BIG_SHELF_STICKERS_GREEN	Scaffale alto
+FURNITURE_DESC_BIG_SHELF_STICKERS_YELLOW	Scaffale alto
+FURNITURE_DESC_HANGING_DOUBLE_BACKLIGHT_DARK	Scaffale contenitore da parete
+FURNITURE_DESC_HANGING_DOUBLE_BACKLIGHT_LIGHT	Scaffale contenitore da parete
+FURNITURE_DESC_HANGING_DOUBLE_DEFAULT	Scaffale contenitore da parete
+FURNITURE_DESC_HANGING_DOUBLE_ROUNDED_PINK	Scaffale contenitore da parete
+FURNITURE_DESC_HANGING_DOUBLE_ROUNDED_RED	Scaffale contenitore da parete
+FURNITURE_DESC_HANGING_DOUBLE_SQUARES	Scaffale contenitore da parete
+FURNITURE_DESC_HANGING_DOUBLE_STICKERS_BLUE	Scaffale contenitore da parete
+FURNITURE_DESC_HANGING_DOUBLE_STICKERS_GREEN	Scaffale contenitore da parete
+FURNITURE_DESC_HANGING_DOUBLE_STICKERS_YELLOW	Scaffale contenitore da parete
+FURNITURE_DESC_HANGING_SINGLE_BACKLIGHT_DARK	Mensole da parete
+FURNITURE_DESC_HANGING_SINGLE_BACKLIGHT_LIGHT	Mensole da parete
+FURNITURE_DESC_HANGING_SINGLE_DEFAULT	Mensole da parete
+FURNITURE_DESC_HANGING_SINGLE_ROUNDED_PINK	Mensole da parete
+FURNITURE_DESC_HANGING_SINGLE_ROUNDED_RED	Mensole da parete
+FURNITURE_DESC_HANGING_SINGLE_SQUARES	Mensole da parete
+FURNITURE_DESC_HANGING_SINGLE_STICKERS_BLUE	Mensole da parete
+FURNITURE_DESC_HANGING_SINGLE_STICKERS_GREEN	Mensole da parete
+FURNITURE_DESC_HANGING_SINGLE_STICKERS_YELLOW	Mensole da parete
+FURNITURE_DESC_LITTLE_SHELF_DEFAULT	Scaffale basso
+FURNITURE_DESC_LITTLE_SHELF_WOOD	Scaffale basso
+FURNITURE_DESC_PAINT_CAN	Barattolo di vernice
+FURNITURE_DESC_STICKER_ATARI	La leggendaria azienda di videogiochi
+FURNITURE_NAME_BIG_SHELF_BACKLIGHT_DARK	Scaffale in rovere retroilluminato
+FURNITURE_NAME_BIG_SHELF_BACKLIGHT_LIGHT	Scaffale in acero retroilluminato
+FURNITURE_NAME_BIG_SHELF_DEFAULT	Scaffale da artigiano
+FURNITURE_NAME_BIG_SHELF_ROUNDED_PINK	Scaffale caramella
+FURNITURE_NAME_BIG_SHELF_ROUNDED_RED	Scaffale profumato
+FURNITURE_NAME_BIG_SHELF_SQUARES	Scaffale in stile loft
+FURNITURE_NAME_BIG_SHELF_STICKERS_BLUE	Scaffale blu per ragazzi
+FURNITURE_NAME_BIG_SHELF_STICKERS_GREEN	Scaffale verde per ragazzi
+FURNITURE_NAME_BIG_SHELF_STICKERS_YELLOW	Scaffale giallo per ragazzi
+FURNITURE_NAME_HANGING_DOUBLE_BACKLIGHT_DARK	Pensile in rovere retroilluminato
+FURNITURE_NAME_HANGING_DOUBLE_BACKLIGHT_LIGHT	Pensile in acero retroilluminato
+FURNITURE_NAME_HANGING_DOUBLE_DEFAULT	Scaffale del Maestro
+FURNITURE_NAME_HANGING_DOUBLE_ROUNDED_PINK	Pensile caramella
+FURNITURE_NAME_HANGING_DOUBLE_ROUNDED_RED	Pensile profumato
+FURNITURE_NAME_HANGING_DOUBLE_SQUARES	Pensile in stile loft
+FURNITURE_NAME_HANGING_DOUBLE_STICKERS_BLUE	Pensile blu per ragazzi
+FURNITURE_NAME_HANGING_DOUBLE_STICKERS_GREEN	Pensile verde per ragazzi
+FURNITURE_NAME_HANGING_DOUBLE_STICKERS_YELLOW	Pensile giallo per ragazzi
+FURNITURE_NAME_HANGING_SINGLE_BACKLIGHT_DARK	Mensole in rovere retroilluminate
+FURNITURE_NAME_HANGING_SINGLE_BACKLIGHT_LIGHT	Mensola in acero retroilluminata
+FURNITURE_NAME_HANGING_SINGLE_DEFAULT	Libreria
+FURNITURE_NAME_HANGING_SINGLE_ROUNDED_PINK	Mensole caramella
+FURNITURE_NAME_HANGING_SINGLE_ROUNDED_RED	Mensole profumate
+FURNITURE_NAME_HANGING_SINGLE_SQUARES	Mensole in stile loft
+FURNITURE_NAME_HANGING_SINGLE_STICKERS_BLUE	Mensole blu per ragazzi
+FURNITURE_NAME_HANGING_SINGLE_STICKERS_GREEN	Mensole verdi per ragazzi
+FURNITURE_NAME_HANGING_SINGLE_STICKERS_YELLOW	Mensole gialle per ragazzi
+FURNITURE_NAME_LITTLE_SHELF_DEFAULT	Scaffale da magazzino
+FURNITURE_NAME_LITTLE_SHELF_WOOD	Scaffale del Maestro
+FURNITURE_NAME_PAINT_CAN	Barattolo di vernice
+FURNITURE_NAME_STICKER_ATARI	Poster Atari
+GLASS_CABINET_WITH_CONSOLE	Scaffale di vetro retroilluminato
+GUI_SHOP_FROM	Da
+GUI_SHOP_LEFT	Rimanenti:
+GUI_SHOP_MONTH	Più di una settimana fa
+GUI_SHOP_PIECES	px
+GUI_SHOP_TODAY	Oggi
+GUI_SHOP_TOMORROW	Questa settimana
+GUI_SHOP_WHOLESALE	Ingrosso
+GUI_SHOP_YESTERDAY	Ieri
+INVENTORY_NOTIFICATION_AND_OTHERS	eccetera...
+ITEM_CATEGORY_NAME_BLUEPRINT	Progetti
+ITEM_CATEGORY_NAME_CHAR_INSTRUMENTS	Attrezzi
+ITEM_CATEGORY_NAME_DISASSEMBLE_OBJECTS	Elettrodomestici
+ITEM_CATEGORY_NAME_ENGINEERING	Ricambi
+ITEM_CATEGORY_NAME_EXPENDABLE	Materiali
+ITEM_CATEGORY_NAME_HUGE	Oggetti grandi
+ITEM_CATEGORY_NAME_UPGRADE_INSTRUMENTS	Potenziamenti attrezzi
+ITEM_NAME_BLUEPRINT_ACCUMULATOR_LV1	Batteria
+ITEM_REC_NAME_BLUEPRINT_WORKBENCH_LV1	Banco da lavoro
+ITEM_REC_NAME_CONNECTION_CABLE	Bobina di cavo
+ITEM_REC_NAME_DRILL_LV2	Trapano temprato
+ITEM_REC_NAME_HAMMER_LV2	Martello rinforzato
+ITEM_REC_NAME_LIGHT_BULB	Lampadina
+ITEM_REC_NAME_MATRIX	Matrice
+ITEM_REC_NAME_MICROCHIP	Microchip
+ITEM_REC_NAME_PLASTIC	Plastica
+ITEM_REC_NAME_SAW_LV3	Sega d’acciaio
+ITEM_REC_NAME_TRANSFORMER	Trasformatore
+LICENSE_HEADER	Licenza
+LICENSE_ITEMS_ATARI2600	Licenza Atari 2600
+LICENSE_ITEMS_ATARICX40	Licenza Atari CX40
+LICENSE_ITEMS_ATARI_LYNX	Licenza Atari Lynx
+LICENSE_ITEMS_AUTOROLLA	Licenza Autorolla Razor
+LICENSE_ITEMS_BLUEBERRY_CURL	Licenza Blueberry Curl
+LICENSE_ITEMS_BREADBOX	Licenza BreadBox Joystick
+LICENSE_ITEMS_BRICKGAME	Licenza Brick Game
+LICENSE_ITEMS_DESCRIPTION	Consente di vedere le offerte sul mercato e sblocca i ricambi dei fornitori
+LICENSE_ITEMS_EGGOTCHI	Licenza Eggotchi
+LICENSE_ITEMS_FLASHLIGHT_99	Licenza Unicorp 99L
+LICENSE_ITEMS_GAMEDUCK	Licenza Game Duck
+LICENSE_ITEMS_GOMAN	Licenza Nony Goman
+LICENSE_ITEMS_GUITAR_LEGEND	Licenza Guitar Legend
+LICENSE_ITEMS_NERDIO	Licenza Nerdio W-91F
+LICENSE_ITEMS_PALALOID	Licenza Palaloid
+LICENSE_ITEMS_PATENTO_BS	Licenza Patento BS
+LICENSE_ITEMS_PLAYMACHINE	Licenza Nony PlayMachine
+LICENSE_ITEMS_PMP	Licenza Nony PMP 1000
+LICENSE_ITEMS_POKIA	Licenza Pokia 3310
+LICENSE_ITEMS_POKIA_NJOY	Licenza Pokia Njoy
+LICENSE_ITEMS_ROBBY	Licenza Robby
+LICENSE_ITEMS_SEAMENS_M65	Licenza Simsons M65
+LICENSE_ITEMS_STEAMDECK	Licenza Steam Deck
+LICENSE_ITEMS_TECHNO	Licenza Robby
+LICENSE_ITEMS_WALKIETALKIE	Licenza Walkie-talkie
+LICENSE_ITEMS_WERTU	Licenza Wertu Signature
+LICENSE_ITEMS_XI-BOX	Licenza XI-box
+LICENSE_ITEMS_XI-BOX_DUKE	Licenza XI-box Controller
+LOT_DESC_Atari2600_Day_1_2000	La usavo come mobile per la TV, ma ora non funziona neanche quella.
+LOT_DESC_Atari_2600_Day_1_3500_Rust	L’ho trovata in soffitta, impolverata come la mia laurea. Ma quella non la vendo.
+LOT_DESC_Atari_2600_Day_2_4500_Clean	La console funziona alla perfezione, ma è coperta da uno spesso strato di polvere. Ce n’è persino all’interno. Ho paura ad aprirla: quando la rimonterò, di sicuro avanzeranno dei pezzi...
+LOT_DESC_Atari_2600_Day_3_1500	Non dà segni di vita. Una volta faceva felici i miei genitori, ma me un po’ meno; ora occupa solo spazio.
+LOT_DESC_Atari_2600_Day_3_2000_Rust	Mi ignora. Inserisco la cartuccia e lampeggia soltanto. Non ho idea di quale sia il problema. È proprio come la mia ragazza. Con lei non posso farci niente, ma almeno in questo caso...
+LOT_DESC_Atari_CX40_Day_2_2500_Clean	Non mi serve la seconda: tanto non ho nessuno con cui giocare. Non ho amici...
+LOT_DESC_Atari_CX40_Day_2_500	Non funziona proprio. Premi il pulsante e non succede nulla. Non so cosa abbia, ma magari riesci a ripararla. Il prezzo è simbolico, niente sconti.
+LOT_DESC_Atari_CX40_Day_3_2500_Clean	Non si è rotto niente: è solo che non ho più accanto la persona che lo teneva con me. Non riesco nemmeno a guardarlo... Portalo via, per favore.
+LOT_DESC_Atari_CX40_Day_3_800_Clean	Probabilmente funziona. L’ho trovato in soffitta. Dev’essere di mio fratello maggiore, anche se dice di averne avuto uno solo...
+LOT_DESC_Autorolla_Day_1_18000_Clean	Vendo il telefono del mio ex. Era maledetto. Il telefono, non la nostra relazione. Anche se...
+LOT_DESC_Autorolla_Day_1_20000_Clean	Un telefono affilato quanto la mia ironia. Se leggi l’annuncio e non lo compri, sei un salame.
+LOT_DESC_Autorolla_Day_1_4000	Posso confermare che non è impermeabile. Ci sono andato a nuotare nel lago. E la mia macchina è ancora là sotto.
+LOT_DESC_Autorolla_Day_2_7000	È maledetto! Quando chiamo sento una voce strana, anche se nessuno risponde. Salvami!
+LOT_DESC_Eggotchi_Day_1_2000_Clean	Era di mio figlio. Non capisco queste cose... Ti prego, non lasciarlo morire. Non posso riavere mio figlio, ma almeno il suo ricordo continuerà a vivere.
+LOT_DESC_Eggotchi_Day_1_550	L’ho trovato tra le vecchie cose di mio fratello. Fa bip in continuazione. L’ho colpito, ma non è servito. A cosa servono questi giocattoli, poi?
+LOT_DESC_Eggotchi_Day_1_650	L’ho trovato. Non so cosa sia, ma mi hanno detto che i giovani vanno pazzi per queste cose. Magari a qualcuno interessa.
+LOT_DESC_Eggotchi_Day_3_1600_Rust	Lo vendo perché mi mette tristezza. Ha fatto bip per tutta la sera, poi ha smesso. Credevo si fosse addormentato, invece era morto. Ora è lì, come una piccola lapide pixelata. Non avrei mai dovuto portarlo in bagno...
+LOT_DESC_Flashlight_Day_1_1000	Un regalo di mio zio che vive all’estero. È un tipo in gamba, lavora per Unicorp. Dice che partirà in aereo a breve, ma non so dove, quindi...
+LOT_DESC_NonyGoman_Day_1_20000_Clean	Funziona, registra, prende la radio e riproduce cassette. Ha qualche segno d’usura. Ho comprato un lettore CD: i dischi sono decisamente il futuro. Le cassette sono roba del secolo scorso.
+LOT_DESC_NonyGoman_Day_3_21000_Clean	Lo usavo come registratore vocale. Mai registrare le conversazioni con i criminali: ti procuri più guai che registrazioni. Per questo lo vendo: qui in ospedale non mi serve.
+LOT_DESC_PSP_Day_1_11000_Clean	La mia ragazza mi ha detto: «O me o quei tuoi videogiochi!» Per fortuna il mio computer è «per lavoro».
+LOT_DESC_PSP_Day_1_12000_Clean	Il caricamento è così lento che sullo schermo ho visto più me stesso che i giochi. E se sapessi che aspetto ho, capiresti perché è un problema. Compralo se sei bello! In buone condizioni, adatto a tutte le regioni.
+LOT_DESC_PSP_Day_2_10000_Clean	Mi sono accorto che lo usavo più per ascoltare musica. Lo mettevo per coprire i rumori di casa. Ora ho comprato un lettore musicale. Funziona: i giochi partono senza problemi.
+LOT_DESC_PSP_Day_2_3000	L’ho lasciato in carica tutta la notte. La mattina dopo ho trovato il gatto addormentato sopra. Da allora non si è più svegliato.
+LOT_DESC_PSP_Day_3_4000	Lo schermo è nero e premendo i tasti non succede nulla. Ci giocavo sempre, ma ora è solo un pezzo di plastica. Vendo per ricambi.
+LOT_DESC_Playmachine_Day_1_22000_Clean	I miei amici continuano a battermi a wrestling e usano sempre la mossa «Arpione». Odio perdere, ma magari tu sarai più fortunato.
+LOT_DESC_Playmachine_Day_2_5000	La console è morta. Lo schermo è nero e i dischi non girano. È lì in giro come un soprammobile. Puoi provare a ripararla o smontarla per i ricambi...
+LOT_DESC_Playmachine_Day_3_20000_Clean	Ho comprato una console portatile perché per lavoro devo andare spesso in Russia. Ora mi sono abituato a giocare con quella portatile anche a casa.
+LOT_DESC_Playmachine_Day_3_5500	Non si avvia. Sembra stanca dentro, proprio come me. La riparerei da solo, ma l’università non mi lascia tempo per riparazioni o videogiochi.
+LOT_DESC_Playmachine_Working_Day_1	Ci mette molto a caricare e a volte l’audio non funziona. Gioco poco e non sono riuscito a ripararla, quindi tanto vale che ci provi qualcun altro.
+LOT_DESC_Pokia_Day_1_8000_Clean	Come nuova, ancora in garanzia! Ci ho piantato solo quindici chiodi.
+LOT_DESC_Pokia_Day_3_2500	Questo telefono rispondeva sempre, anche quando cercavo di ignorare le chiamate degli esattori. Funziona ancora alla grande. A dire il vero, mi fa paura.
+LOT_DESC_Pokia_Day_3_3000	Non so come si sia rotto. Un giorno ha semplicemente smesso di accendersi. L’ho smontato e rimontato, ma non è servito. L’ho usato per tenere in piano il tavolo per un anno, poi ho venduto il tavolo.
+LOT_DESC_Pokia_Day_3_4500_Rust	A dire il vero, l’ho trovato. Un’auto gli è passata sopra proprio davanti a me, ma si accendeva ancora! Poi mi è caduto sul tappeto e ha smesso di funzionare. Vendo così com’è.
+LOT_NAME_Atari2600_Day_1_2000	Atari 2600
+LOT_NAME_Atari_2600_Day_1_3500_Rust	Atari 2600
+LOT_NAME_Atari_2600_Day_2_4500_Clean	Atari 2600
+LOT_NAME_Atari_2600_Day_3_1500	Atari 2600
+LOT_NAME_Atari_2600_Day_3_2000_Rust	Atari 2600
+LOT_NAME_Atari_CX40_Day_2_2500_Clean	Atari CX40
+LOT_NAME_Atari_CX40_Day_2_500	Atari CX40
+LOT_NAME_Atari_CX40_Day_3_2500_Clean	Atari CX40
+LOT_NAME_Atari_CX40_Day_3_800_Clean	Atari CX40
+LOT_NAME_Autorolla_Day_1_18000_Clean	Autorolla Razor
+LOT_NAME_Autorolla_Day_1_20000_Clean	Autorolla Razor
+LOT_NAME_Autorolla_Day_1_4000	Autorolla Razor
+LOT_NAME_Autorolla_Day_2_7000	Autorolla Razor
+LOT_NAME_Eggotchi_Day_1_2000_Clean	Eggotchi
+LOT_NAME_Eggotchi_Day_1_550	Eggotchi
+LOT_NAME_Eggotchi_Day_1_650	Eggotchi
+LOT_NAME_Eggotchi_Day_3_1600_Rust	Eggotchi
+LOT_NAME_Flashlight_Day_1_1000	Unicorp 99L
+LOT_NAME_NonyGoman_Day_1_20000_Clean	Nony Goman
+LOT_NAME_PSP_Day_1_11000_Clean	Nony PMP
+LOT_NAME_PSP_Day_1_12000_Clean	Nony PMP
+LOT_NAME_PSP_Day_2_10000_Clean	Nony PMP
+LOT_NAME_PSP_Day_2_3000	Nony PMP
+LOT_NAME_PSP_Day_3_4000	Nony PMP
+LOT_NAME_Playmachine_Day_1_22000_Clean	Nony PlayMachine
+LOT_NAME_Playmachine_Day_2_5000	Nony PlayMachine
+LOT_NAME_Playmachine_Day_3_20000_Clean	Nony PlayMachine
+LOT_NAME_Playmachine_Day_3_5500	Nony PlayMachine
+LOT_NAME_Playmachine_Working_Day_1	Nony PlayMachine
+LOT_NAME_Pokia_Day_1_8000_Clean	Pokia 3310
+LOT_NAME_Pokia_Day_3_2500	Pokia 3310
+LOT_NAME_Pokia_Day_3_3000	Pokia 3310
+LOT_NAME_Pokia_Day_3_4500_Rust	Pokia 3310
+LOT_Name_NonyGoman_Day_3_21000_Clean	Nony Goman
+L_ELEMENTS_BOX_SHOP_LOT_DESCRIPTION_1	L’ho trovato mentre riordinavo il garage!
+L_ELEMENTS_BOX_SHOP_LOT_DESCRIPTION_10	Lavoro in una fabbrica di elettrodomestici e ogni tanto ci avanzano dei pezzi. Ho deciso di provare a venderli.
+L_ELEMENTS_BOX_SHOP_LOT_DESCRIPTION_2	Ho comprato casa da poco e la soffitta era piena di queste cose.
+L_ELEMENTS_BOX_SHOP_LOT_DESCRIPTION_3	Lavoro all’ufficio oggetti smarriti: questo è un lotto di cose mai reclamate dai proprietari.
+L_ELEMENTS_BOX_SHOP_LOT_DESCRIPTION_4	Ho esplorato un magazzino abbandonato prima della demolizione e raccolto qualcosa che poteva valere.
+L_ELEMENTS_BOX_SHOP_LOT_DESCRIPTION_5	Sono alcuni progetti di esercitazione venuti male della nostra scuola di riparazioni elettroniche. Si possono ancora usare come ricambi.
+L_ELEMENTS_BOX_SHOP_LOT_DESCRIPTION_6	Siamo un’azienda di logistica elettronica. Ogni tanto capitano incidenti, e questo è ciò che ci resta.
+L_ELEMENTS_BOX_SHOP_LOT_DESCRIPTION_7	Lavoro in uno sfasciacarrozze e spesso trovo pezzi ancora buoni da vendere.
+L_ELEMENTS_BOX_SHOP_LOT_DESCRIPTION_8	Ho qui un sacco di ricambi. Non chiedere.
+L_ELEMENTS_BOX_SHOP_LOT_DESCRIPTION_9	Questo lotto raccoglie ricambi di vari dispositivi portati al nostro banco dei pegni.
+License_Display_Case	Vetrina portalicenze
+License_Display_Case_DESC	Ti permette di tenere tutte le licenze in un unico posto
+License_Display_Rack	Portalicenze
+MAGICAL_WARDROBE	Scaffale magico
+MAINTENANCE_NOT_REQUIRED	manutenzione non necessaria
+MARKET_SELLER_1	xX_RiTsU:-D_Xx
+MARKET_SELLER_10	nAo_xX
+MARKET_SELLER_11	SoRa>_o
+MARKET_SELLER_12	4YuMu21
+MARKET_SELLER_13	s0rA2002
+MARKET_SELLER_14	A5aH1_88
+MARKET_SELLER_15	KaNaMe34*
+MARKET_SELLER_16	Ao1_2001
+MARKET_SELLER_17	Sh10n;__
+MARKET_SELLER_18	ToMoMi(>_<)
+MARKET_SELLER_19	t0m0m1_33
+MARKET_SELLER_2	RuKa(^.^)
+MARKET_SELLER_20	MaK0t0:-)
+MARKET_SELLER_21	Ma5aMiOrZ
+MARKET_SELLER_22	!!HaRuK4!!>_<!!
+MARKET_SELLER_23	R1kU34
+MARKET_SELLER_24	SaTsUk1(x_x)
+MARKET_SELLER_25	R3i77
+MARKET_SELLER_26	MiChiRu08<3
+MARKET_SELLER_27	x_ToMo08_x
+MARKET_SELLER_28	n0z0Mi(T_T)
+MARKET_SELLER_29	1tSuKi21
+MARKET_SELLER_3	4YuMu(^o^)
+MARKET_SELLER_30	SeTsUnA07
+MARKET_SELLER_31	5h10N42
+MARKET_SELLER_32	HiKaRi;_;
+MARKET_SELLER_33	HiNaTa(-_-)
+MARKET_SELLER_34	As4h1(x_x)
+MARKET_SELLER_35	K4n0n34
+MARKET_SELLER_36	Ka0Ru(T_T)
+MARKET_SELLER_37	M1n0r1>_>
+MARKET_SELLER_38	HiKaRu_07<3
+MARKET_SELLER_39	n4o(>_<)
+MARKET_SELLER_4	m1N0rI17
+MARKET_SELLER_40	R3n09
+MARKET_SELLER_41	R3n^^;;
+MARKET_SELLER_42	mAk0t0_42
+MARKET_SELLER_43	R1n_03
+MARKET_SELLER_44	K41r1>.<
+MARKET_SELLER_45	KoU(~_~)
+MARKET_SELLER_46	MiZuK1=^.^=
+MARKET_SELLER_47	SuBaRu_21
+MARKET_SELLER_48	R3i>.<
+MARKET_SELLER_49	A0i(^_^ )v
+MARKET_SELLER_5	KaZuM1>.<
+MARKET_SELLER_50	YuUki2000
+MARKET_SELLER_51	Kei03
+MARKET_SELLER_52	K4n0n(^-^)
+MARKET_SELLER_53	RuKa21
+MARKET_SELLER_54	SeTsUnA^_^
+MARKET_SELLER_55	K4NaMe^_^
+MARKET_SELLER_56	M1D0r1;_;
+MARKET_SELLER_57	YuU^^
+MARKET_SELLER_58	1TsUk1XD
+MARKET_SELLER_59	K0U77
