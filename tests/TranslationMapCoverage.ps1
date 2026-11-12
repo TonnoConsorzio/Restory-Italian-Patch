@@ -49,6 +49,13 @@ foreach ($path in $translationFiles) {
         if ($map.ContainsKey($key)) { throw "Duplicate map key '$key' in $(Split-Path $path -Leaf)." }
         if (-not $source.ContainsKey($key)) { throw "Map key '$key' is absent from the source corpus." }
         if ([string]::IsNullOrWhiteSpace($value)) { throw "Empty translation for '$key'." }
+        if ([StringComparer]::OrdinalIgnoreCase.Equals((Split-Path $path -Leaf), 'ui-004.tsv')) {
+            $sourceNewlines = ([regex]::Matches($source[$key], "`n")).Count
+            $translationNewlines = ([regex]::Matches($value, "`n")).Count
+            if ($sourceNewlines -ne $translationNewlines) {
+                throw "UI newline mismatch for '$key': source has $sourceNewlines, translation has $translationNewlines."
+            }
+        }
         $tokenPattern = '<[^>]+>|\{[^{}]+\}|%[0-9]*[a-zA-Z]'
         $sourceTokens = [regex]::Matches($source[$key], $tokenPattern).Value -join "`0"
         $targetTokens = [regex]::Matches($value, $tokenPattern).Value -join "`0"

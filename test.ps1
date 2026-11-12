@@ -21,6 +21,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'te
 if ($LASTEXITCODE -ne 0) { throw 'Credit overlay tests failed.' }
 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'tests\DialogueLocalization.Tests.ps1')
 if ($LASTEXITCODE -ne 0) { throw 'Dialogue localization tests failed.' }
+powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'tests\UiNewlinePreservation.Tests.ps1')
+if ($LASTEXITCODE -ne 0) { throw 'Fuzzby UI newline preservation tests failed.' }
 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'tests\DialogueSourceExport.Tests.ps1')
 if ($LASTEXITCODE -ne 0) { throw 'Dialogue source export tests failed.' }
 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'tests\DialogueProbeExport.Tests.ps1')
