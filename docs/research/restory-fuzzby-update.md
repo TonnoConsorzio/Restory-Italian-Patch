@@ -1,7 +1,7 @@
 # Ricerca sull’aggiornamento Fuzzby
 
-**Data:** 2026-11-12  
-**Build target osservato:** ReStory 1.0.035r, Steam BuildID 26622427  
+**Data:** 2026-11-12
+**Build target osservato:** ReStory 1.0.035r, Steam BuildID 26622427
 **Stato:** ispezione locale in sola lettura; il gioco non è stato avviato né modificato.
 
 ## Annuncio ufficiale
