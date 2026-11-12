@@ -1,0 +1,42 @@
+# Fuzzby update UI translation shard
+APP_TANKS_DESC	Un classico arcade di battaglie tra carri armati.
+APP_TANKS_NAME	Tanks
+DEVICE_NAME_COMMODOREKEYBOARD	Commodore 64
+DEVICE_NAME_FUZZBY	Fuzzby
+DEVICE_NAME_NONY_PLAYMACHINE_CONTROLLER	Controller PlayMachine
+ELEMENT_COMMODOREKEYBOARD_BACK_CORPUS_NAME	Pannello inferiore
+ELEMENT_COMMODOREKEYBOARD_CHIP_BIG_01_NAME	Processore grande
+ELEMENT_COMMODOREKEYBOARD_CHIP_SMALL_01_NAME	Processore piccolo
+ELEMENT_COMMODOREKEYBOARD_CHIP_VIC_NAME	Processore VIC
+ELEMENT_COMMODOREKEYBOARD_FUSE_NAME	Fusibile 3AG
+ELEMENT_COMMODOREKEYBOARD_KEYBOARD_PW_NAME	Tastiera
+ELEMENT_COMMODOREKEYBOARD_MOTHERBOARD_NAME	Scheda madre
+ELEMENT_COMMODOREKEYBOARD_PLATE_VIC_NAME	Pannello VIC
+ELEMENT_COMMODOREKEYBOARD_SHIFT_LOCK_BUTTON_NAME	Tasto blocco maiuscole
+ELEMENT_COMMODOREKEYBOARD_TOP_CORPUS_NAME	Pannello superiore
+ELEMENT_FUZZBY_BATTERY_1_NAME	Batteria
+ELEMENT_FUZZBY_BATTERY_COVER_NAME	Coperchio del vano batterie
+ELEMENT_FUZZBY_BOARD_NAME	Scheda elettronica
+ELEMENT_FUZZBY_CASE_BOT_PW_NAME	Pannello posteriore
+ELEMENT_FUZZBY_CASE_L_NAME	Pannello sinistro
+ELEMENT_FUZZBY_CASE_R_NAME	Pannello destro
+ELEMENT_FUZZBY_FACE_NAME	Viso
+ELEMENT_FUZZBY_FUR_NAME	Pelliccia
+ELEMENT_FUZZBY_LEFT_PANEL_PW_NAME	Pannello sinistro
+ELEMENT_FUZZBY_MECHANISM_BLOCK_NAME	Gruppo ingranaggi
+ELEMENT_FUZZBY_MICRO_PW_NAME	Microfono
+ELEMENT_FUZZBY_MOTOR_PW_NAME	Motore
+ELEMENT_FUZZBY_RIGHT_PANEL_PW_NAME	Pannello destro
+ELEMENT_FUZZBY_SPEAKER_PW_NAME	Altoparlante
+ELEMENT_FUZZBY_TOP_PANEL_PW_NAME	Meccanismo del viso
+ELEMENT_NONY_PLAYMACHINE_CONTROLLER_BUMPER_DOWN_L_NAME	Grilletto
+ELEMENT_NONY_PLAYMACHINE_CONTROLLER_BUMPER_TOP_L_NAME	Pulsante dorsale sinistro
+ELEMENT_NONY_PLAYMACHINE_CONTROLLER_BUMPER_TOP_R_NAME	Pulsante dorsale destro
+Email_Name_HinodeExpressCustomerService	Assistenza clienti Hinode Express
+Email_Narrative_Body_C64	HINODE EXPRESS CO., LTD.\nServizi di spedizione e consegna\nTokyo, Giappone\n\nNOTIFICA DI SPEDIZIONE\n\nGentile cliente,\nsiamo lieti di informarla che il suo ordine è stato spedito dal nostro centro di distribuzione ed è in viaggio.\n\nDettagli della spedizione\nArticolo: C64 MEGA PACK\nDescrizione: Pacchetto sistema di intrattenimento per computer\nNumero di colli: 1\nStato della consegna: IN TRANSITO\n\nLa spedizione include una selezione di apparecchiature informatiche, accessori e software di intrattenimento.\nPer ulteriori informazioni sul contenuto del pacco, sullo stato attuale della consegna e sulla data prevista di arrivo, contatti il nostro servizio automatico di informazioni sulle spedizioni:\n\nNUMERO INFORMAZIONI SPEDIZIONI\n+1 (206) 486-2246\n\nDisponibile 24 ore su 24, 7 giorni su 7.\nConservi questa comunicazione per i suoi archivi.\nGrazie per aver scelto Hinode Express.\n\nServizio clienti\nHINODE EXPRESS CO., LTD.\n\nComunicazione generata automaticamente. Si prega di non rispondere.
+Email_Narrative_Topic_C64	Notifica di spedizione: C64 MEGA PACK
+TOOL_DEVICE_SCANNER_DESCRIPTION	Scansiona un dispositivo e ne mostra lo stato.
+TOOL_DEVICE_SCANNER_NAME	Scanner per dispositivi
+UI_SETTING_CUSTOMIZATION_BUTTON_BRUSH	Aerografo
+UI_SETTING_CUSTOMIZATION_BUTTON_STICKERS	Adesivi
+UI_WARNING_SCANNING_NO_DEVICE	Metti sul banco il dispositivo da scansionare
