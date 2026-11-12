@@ -13,8 +13,8 @@ L’annuncio non fornisce un numero di versione del gioco né un BuildID. Non us
 ## Differenze dei dati locali
 
 - La tabella inglese di localizzazione contiene 2.187 chiavi, contro le 2.146 dell’estrazione precedente: **41 chiavi nuove** da tradurre e aggiungere ai controlli di copertura.
-- L’export Articy contiene 1.133 `DialogueFragment`, contro i 1.132 precedenti.
-- Il nuovo frammento Articy `0x0100000000006FEC` è presente anche nel `DialogueDatabase` della build aggiornata. La entry runtime corrispondente è conversazione `156`, entry `13`, con sorgente inglese nel database.
+- L’export Articy contiene 1.133 `DialogueFragment`, uno in più rispetto ai 1.132 precedenti. Il database runtime mantiene 1.132 chiavi uniche: questo frammento non aggiunge una nuova chiave runtime.
+- Il frammento Articy `0x0100000000006FEC` è presente anche nel `DialogueDatabase` della build aggiornata e corrisponde allo slot runtime già esistente conversazione `156`, entry `13`, con sorgente inglese nel database.
 - La corrispondenza è stata verificata confrontando l’`Articy Id` della entry runtime con l’ID del nodo Articy. Il testo sorgente non viene copiato in questa nota o nel repository.
 
 ## Fonti

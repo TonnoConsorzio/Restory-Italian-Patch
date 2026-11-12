@@ -1,5 +1,7 @@
 using System;
 using System.IO;
+using System.Reflection;
+using PixelCrushers.DialogueSystem;
 
 internal static class DialogueLocalizationTests
 {
@@ -11,6 +13,7 @@ internal static class DialogueLocalizationTests
         MissingEntriesFallBack();
         DuplicateRuntimeKeysAreRejected();
         TranslationAppliesOnlyForItalianLanguage();
+        ResponseLocalizationPreservesDestinationEntry();
         DirectoryLoaderReportsMissingCoverageAndRejectsCrossShardDuplicates();
         if (args.Length > 0) ValidatesPayloadCoverage(args[0]);
         Console.WriteLine("PASS: " + _assertions + " dialogue localization assertions");
@@ -51,6 +54,24 @@ internal static class DialogueLocalizationTests
         Assert(translation == "Testo italiano", "runtime returned the wrong value");
         Assert(!DialogueTranslationRuntime.TryResolve(catalog, "en", 4, 5, out translation), "English dialogue was replaced");
         Assert(!DialogueTranslationRuntime.TryResolve(catalog, "it", 4, 6, out translation), "unmapped dialogue should fall back");
+    }
+
+    private static void ResponseLocalizationPreservesDestinationEntry()
+    {
+        var catalogProperty = typeof(DialogueLocalizationPlugin).GetProperty("Catalog", BindingFlags.Static | BindingFlags.NonPublic);
+        catalogProperty.GetSetMethod(true)
+            .Invoke(null, new object[] { DialogueTranslationCatalog.FromTsv("156\t13\tTraduzione italiana") });
+        Assert(catalogProperty.GetValue(null, null) != null, "dialogue catalog was not initialized");
+        Localization.language = "it";
+        var destination = new DialogueEntry { conversationID = 156, id = 13 };
+        var response = new Response { destinationEntry = destination, formattedText = new FormattedText { text = "English text" } };
+        var prefix = typeof(ItalianResponsesPatch).GetMethod("Prefix", BindingFlags.Static | BindingFlags.NonPublic);
+        Assert(prefix != null, "response localization prefix was not found");
+        prefix.Invoke(null, new object[] { new[] { response } });
+
+        Assert(Object.ReferenceEquals(destination, response.destinationEntry), "response destination entry object was replaced");
+        Assert(response.destinationEntry.conversationID == 156 && response.destinationEntry.id == 13, "response destination IDs changed");
+        Assert(response.formattedText.text == "Traduzione italiana", "response text was not translated");
     }
 
     private static void DirectoryLoaderReportsMissingCoverageAndRejectsCrossShardDuplicates()
