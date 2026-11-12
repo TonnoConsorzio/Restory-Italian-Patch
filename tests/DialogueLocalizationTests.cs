@@ -82,11 +82,18 @@ internal static class DialogueLocalizationTests
     {
         var catalog = DialogueTranslationCatalog.FromDirectory(directory);
         Assert(catalog.Count > 0, "payload has no Italian dialogue seed entries");
-        Assert(catalog.CoverageCount == 1132, "payload coverage does not match the current dialogue database");
+        Assert(catalog.CoverageCount == 1132, "payload coverage does not match the current runtime key set");
         Assert(catalog.Count <= catalog.CoverageCount, "translation count exceeds the coverage set");
         Assert(catalog.MissingCount == catalog.CoverageCount - catalog.Count, "missing-key report does not match coverage");
         Assert(catalog.MissingCount == 0, "release payload is missing Italian dialogue translations");
         Assert(catalog.MissingKeys.Count == catalog.MissingCount, "missing-key list is incomplete");
+
+        string translation;
+        Assert(catalog.TryGet(156, 13, out translation), "new Fuzzby dialogue key 156/13 was not translated");
+        Assert(translation == "Giochi per PC, direttamente in tasca. Su un dispositivo portatile che usa Linux! Riesci a immaginarlo? Lo so, sembra assurdo.", "new Fuzzby dialogue translation changed");
+
+        var coverage = File.ReadAllLines(Path.Combine(directory, "dialogue-coverage.tsv"));
+        Assert(Array.Exists(coverage, line => line == "156\t13\t0x0100000000006FEC"), "new Fuzzby dialogue Articy ID was not mapped to runtime key 156/13");
     }
 
     private static void Assert(bool condition, string message)
