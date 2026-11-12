@@ -7,9 +7,11 @@ Traduzione amatoriale in italiano per **Restory** su Windows. La patch aggiunge 
 ## Compatibilità
 
 - Gioco: Restory per Windows, Steam
-- Build supportata: **26253677** (versione **1.0.033r**)
-- Interfaccia: **2.146** chiavi tradotte
-- Dialoghi e risposte: **1.132** chiavi runtime
+- Build stabile verificata: **26622427** (versione **1.0.035r**)
+- Build precedente ancora supportata: **26253677** (versione **1.0.033r**)
+- Interfaccia della build stabile: **2.187** chiavi tradotte, incluse le **41** aggiunte con Fuzzby
+- Interfaccia della build precedente: **2.146** chiavi tradotte
+- Dialoghi e risposte: **1.132** chiavi runtime, inclusa la nuova entry **156/13**
 - Il testo originale del gioco non è incluso nel repository.
 
 L'installer controlla la build prima di modificare i file e si ferma se la cartella selezionata non corrisponde a una versione supportata.
@@ -21,7 +23,7 @@ L'installer controlla la build prima di modificare i file e si ferma se la carte
 3. Avvia `install.cmd`. Lo script cerca automaticamente Restory nelle librerie Steam; se non trova la cartella corretta, puoi indicarla quando richiesto. In alternativa, trascina la cartella del gioco su `install.cmd`.
 4. Avvia Restory e seleziona **Italiano** nelle impostazioni della lingua.
 
-La patch include il loader necessario: non serve scaricarlo a parte. L'installer conserva i file preesistenti e crea backup per consentire il ripristino.
+La patch include il loader necessario: non serve scaricarlo a parte. L'installer conserva i file preesistenti e crea backup per consentire il ripristino. La beta Steam `[beta_version]` e le sue modifiche di progressione non sono supportate.
 
 ### Disinstallazione
 
@@ -40,7 +42,7 @@ La schermata iniziale mostra: **Tradotto con ❤️ e 🍕 da Alessio** e **IG a
 
 ## Compilare dai sorgenti
 
-Servono Windows, il compilatore C# incluso nel .NET Framework e una copia installata della build supportata. In PowerShell, dalla cartella del repository:
+Servono Windows, il compilatore C# incluso nel .NET Framework e i riferimenti gestiti del gioco. In PowerShell, dalla cartella del repository:
 
 ```powershell
 $managed = 'D:\Steam\steamapps\common\Restory\Restory_Data\Managed'
@@ -48,16 +50,22 @@ $managed = 'D:\Steam\steamapps\common\Restory\Restory_Data\Managed'
 .\build.ps1 -ManagedGameFolder $managed
 ```
 
-La build crea un pacchetto con data e ora in `dist\RestoryItalianPatch-<timestamp>`. In alternativa, imposta `RESTORY_MANAGED_FOLDER` sul percorso `Restory_Data\Managed`.
+La build crea un pacchetto con data e ora in `dist\RestoryItalianPatch-<timestamp>`. In alternativa, imposta `RESTORY_MANAGED_FOLDER` sul percorso `Restory_Data\Managed`. I test automatici usano fixture e copie temporanee per verificare installazione/rimozione CMD e CLI per entrambi i BuildID supportati; non avviano né modificano il gioco installato.
 
 ## Traduzioni e contributi
 
 I cataloghi italiani sono file TSV sotto `payload/`. Quando modifichi una voce, conserva l'identificativo, i placeholder (`{0}` e simili), i tag e la formattazione. Non aggiungere al repository estrazioni o copie dei file originali del gioco.
 
-Per verificare una modifica e compilare i plugin:
+Per verificare una modifica, compilare i plugin ed eseguire il controllo integrato delle 41 chiavi Fuzzby senza estratti del gioco:
 
 ```powershell
 .\test.ps1 -ManagedGameFolder $managed
+```
+
+Il controllo completo della copertura UI rispetto all'intero corpus resta facoltativo e richiede un percorso locale a un export JSON in sola lettura, che non va aggiunto al repository:
+
+```powershell
+.\tests\FuzzbyUiCoverage.Tests.ps1 -SourceCorpus 'C:\percorso-locale\ui-source.json'
 ```
 
 ## Licenza e diritti
