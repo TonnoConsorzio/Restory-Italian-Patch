@@ -9,6 +9,8 @@ New-Item -ItemType Directory -Force -Path (Split-Path $translationTests) | Out-N
 if ($LASTEXITCODE -ne 0) { throw 'Translation catalog test compilation failed.' }
 & $translationTests
 if ($LASTEXITCODE -ne 0) { throw 'Translation catalog tests failed.' }
+powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'tests\IntegratedVerification.Tests.ps1')
+if ($LASTEXITCODE -ne 0) { throw 'Integrated verification tests failed.' }
 $output = Join-Path $PSScriptRoot ('work\InstallerTests-' + [Guid]::NewGuid().ToString('N') + '.exe')
 New-Item -ItemType Directory -Force -Path (Split-Path $output) | Out-Null
 & $compiler /nologo /target:exe /reference:System.Xml.dll /out:$output (Join-Path $PSScriptRoot 'src\Installer.cs') (Join-Path $PSScriptRoot 'tests\InstallerTests.cs')
