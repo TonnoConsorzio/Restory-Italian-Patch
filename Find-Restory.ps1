@@ -51,7 +51,7 @@ foreach ($library in ($libraries | Select-Object -Unique)) {
         $manifestText = Get-Content -LiteralPath $manifest.FullName -Raw
         $installDir = [regex]::Match($manifestText, '"installdir"\s+"([^"]+)"').Groups[1].Value
         $buildId = [regex]::Match($manifestText, '"buildid"\s+"([^"]+)"').Groups[1].Value
-        if ($installDir -eq 'Restory' -and $buildId -eq '26253677') {
+        if ($installDir -eq 'Restory' -and $buildId -in @('26253677', '26622427')) {
             Write-Output $gamePath
             exit 0
         }

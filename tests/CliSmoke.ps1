@@ -11,7 +11,7 @@ $payload = Join-Path $root 'payload'
 New-Item -ItemType Directory -Force -Path $game, (Join-Path $payload 'BepInEx\plugins\RestoryItalianPatch') | Out-Null
 try {
     Set-Content -NoNewline -Path (Join-Path $game 'Restory.exe') -Value 'exe'
-    Set-Content -Path (Join-Path $steamApps 'appmanifest_999999.acf') -Value "`"AppState`"`n{`n  `"installdir`" `"Restory`"`n  `"buildid`" `"26253677`"`n}"
+    Set-Content -Path (Join-Path $steamApps 'appmanifest_999999.acf') -Value "`"AppState`"`n{`n  `"installdir`" `"Restory`"`n  `"buildid`" `"26622427`"`n}"
     Set-Content -NoNewline -Path (Join-Path $payload 'BepInEx\plugins\RestoryItalianPatch\translation.dat') -Value 'Italian patch payload'
     & $exe install $game $payload
     if ($LASTEXITCODE -ne 0) { throw "CMD install returned $LASTEXITCODE." }

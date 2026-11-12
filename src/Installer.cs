@@ -32,6 +32,7 @@ namespace RestoryItalianPatch
     public sealed class InstallerEngine
     {
         public const string SupportedBuildId = "26253677";
+        public const string StableSupportedBuildId = "26622427";
         public const string StateDirectoryName = ".RestoryItalianPatch";
         private readonly string _game;
         private readonly string _payload;
@@ -168,8 +169,8 @@ namespace RestoryItalianPatch
                 var installDir = MatchValue(content, "installdir");
                 if (!String.Equals(installDir, new DirectoryInfo(_game).Name, StringComparison.OrdinalIgnoreCase)) continue;
                 var build = MatchValue(content, "buildid");
-                if (build == SupportedBuildId) return;
-                throw new UnsupportedGameException("Unsupported Restory Steam build '" + (build ?? "unknown") + "'; supported build is " + SupportedBuildId + ". No files were changed.");
+                if (build == SupportedBuildId || build == StableSupportedBuildId) return;
+                throw new UnsupportedGameException("Unsupported Restory Steam build '" + (build ?? "unknown") + "'; supported builds are " + SupportedBuildId + " and " + StableSupportedBuildId + ". No files were changed.");
             }
             throw new UnsupportedGameException("Steam metadata does not identify this folder as Restory; no files were changed.");
         }
