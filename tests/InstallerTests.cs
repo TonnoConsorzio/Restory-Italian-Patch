@@ -8,6 +8,7 @@ internal static class InstallerTests
 
     private static void Main()
     {
+        StableBuildIsAcceptedWithoutDroppingPreviousBuildSupport();
         UnsupportedBuildIsRejectedBeforeWrites();
         UnownedStateDirectoryIsNeverDeleted();
         InstallIsReversibleAndRepeatInstallIsIdempotent();
@@ -17,6 +18,23 @@ internal static class InstallerTests
         PartialBepInExFolderDoesNotCountAsInstalledLoader();
         InterruptedUninstallRestoresMissingOriginal();
         Console.WriteLine("PASS: " + _assertions + " assertions");
+    }
+
+    private static void StableBuildIsAcceptedWithoutDroppingPreviousBuildSupport()
+    {
+        foreach (var buildId in new[] { "26253677", "26622427" })
+        {
+            WithFixture((root, game, payload) =>
+            {
+                WriteGame(game, buildId);
+                WritePayload(payload);
+
+                Engine(game, payload).Install();
+
+                Equal("patch", File.ReadAllText(Path.Combine(game, "BepInEx", "plugins", "RestoryItalianPatch", "sample.txt")),
+                    "supported build " + buildId + " installs the patch");
+            });
+        }
     }
 
     private static void UnsupportedBuildIsRejectedBeforeWrites()
